@@ -1,0 +1,10 @@
+{
+  "tasks": [
+    {
+      "id": 946718607625293825,
+      "job_id": "bdcb2b02-d79e-4eb6-9288-b192360036f4",
+      "query": "REPLICATE [Contact] SELECT * FROM [Salesforce].[Contact]",
+      "is_active": true
+    }
+  ]
+}

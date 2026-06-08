@@ -1,0 +1,28 @@
+{
+  "tasks": [
+    {
+      "id": 957130014313287681,
+      "job_id": "88d153fc-c36c-4bfc-a3e5-d3a393c5e4a2",
+      "query": "REPLICATE [dbo].[Employees] WITH IncrementalCheckColumns = 'LastUpdated', DropTable = 'true' SELECT * FROM [dbo].[Employees]",
+      "is_active": true
+    },
+    {
+      "id": 960038086757191681,
+      "job_id": "88d153fc-c36c-4bfc-a3e5-d3a393c5e4a2",
+      "query": "REPLICATE [dbo].[TestDest] SELECT * FROM [dbo].[TestSource]",
+      "is_active": true
+    },
+    {
+      "id": 960045967279788033,
+      "job_id": "88d153fc-c36c-4bfc-a3e5-d3a393c5e4a2",
+      "query": "REPLICATE [dbo].[TestDest1] WITH storesuppercaseidentifiers = 'True' SELECT * FROM [dbo].[v_TestSource]",
+      "is_active": true
+    },
+    {
+      "id": 960047645492121601,
+      "job_id": "88d153fc-c36c-4bfc-a3e5-d3a393c5e4a2",
+      "query": "REPLICATE [dbo].[TestReproTable]\nWITH TruncateTableData = 'true',\n     DropTable = 'false',\n     AlterSchema = 'true'\nSELECT * FROM [dbo].[v_CommRevTrans_Test]",
+      "is_active": true
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "tasks": [
+    {
+      "id": 972511709950513153,
+      "job_id": "c9a9de10-20d0-4016-aa21-0f2072235f06",
+      "query": "REPLICATE [TESTLIB1].[WIDETEST]",
+      "is_active": true
+    }
+  ]
+}

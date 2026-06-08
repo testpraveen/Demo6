@@ -1,0 +1,19 @@
+{
+  "id": "0db8886e-c7d8-488a-94f3-2b15b60792b5",
+  "display_name": "ApiTesting",
+  "name": "apitesting",
+  "connector": {
+    "name": "CData API",
+    "version": "latest"
+  },
+  "properties": {
+    "AuthScheme": "None"
+  },
+  "labels": [],
+  "settings": {
+    "verbosity": 0,
+    "use_cdata_callback_url": 0,
+    "metadata_refresh_interval": 3600,
+    "use_sync_proxy": 0
+  }
+}

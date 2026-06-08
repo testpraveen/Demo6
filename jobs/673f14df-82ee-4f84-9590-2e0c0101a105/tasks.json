@@ -1,0 +1,10 @@
+{
+  "tasks": [
+    {
+      "id": 924201071239368705,
+      "job_id": "673f14df-82ee-4f84-9590-2e0c0101a105",
+      "query": "REPLICATE [OrderLine] SELECT * FROM [OrderLine]",
+      "is_active": true
+    }
+  ]
+}

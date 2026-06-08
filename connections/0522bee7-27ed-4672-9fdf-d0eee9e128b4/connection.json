@@ -1,0 +1,21 @@
+{
+  "id": "0522bee7-27ed-4672-9fdf-d0eee9e128b4",
+  "display_name": "MicrosoftOneLakeDestinationTest",
+  "name": "microsoftonelakedestinationtest",
+  "connector": {
+    "name": "Microsoft OneLake",
+    "version": "latest"
+  },
+  "properties": {
+    "AuthScheme": "AzureAD",
+    "ConnectionType": "OneLake",
+    "URI": "onelake://onelaketest/syncLakehouse.Lakehouse/Files"
+  },
+  "labels": [],
+  "settings": {
+    "verbosity": 0,
+    "use_cdata_callback_url": 0,
+    "metadata_refresh_interval": 3600,
+    "use_sync_proxy": 0
+  }
+}

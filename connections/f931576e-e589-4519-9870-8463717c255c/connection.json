@@ -1,0 +1,28 @@
+{
+  "id": "f931576e-e589-4519-9870-8463717c255c",
+  "display_name": "serverSource",
+  "name": "serversource",
+  "connector": {
+    "name": "CData SQL",
+    "version": "25.0.9543.0"
+  },
+  "properties": {
+    "Server": "localhost",
+    "AuthScheme": "Password",
+    "Database": "Sync_Test_A",
+    "Password": "SECURE:Ebr74nRzwO9ZNnFLag4GW0egLzVnW4q5JIP8IsYsJ7BJaC/a1iYnGV3GlZmY0Gk7rraFAOU=",
+    "Other": "supportnativedatatype=true;",
+    "Port": "1433",
+    "Encrypt": "False",
+    "UseSSH": "False",
+    "supportnativedatatype": "true",
+    "User": "kishore"
+  },
+  "labels": [],
+  "settings": {
+    "verbosity": 5,
+    "use_cdata_callback_url": 0,
+    "metadata_refresh_interval": 3600,
+    "use_sync_proxy": 0
+  }
+}

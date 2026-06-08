@@ -1,0 +1,10 @@
+{
+  "tasks": [
+    {
+      "id": 971979821691310081,
+      "job_id": "bce49521-d2bb-4f19-b337-27fb9547d1ba",
+      "query": "REPLICATE [BU_TEST] SELECT * FROM [Test_Schema].[BU_TEST]",
+      "is_active": true
+    }
+  ]
+}

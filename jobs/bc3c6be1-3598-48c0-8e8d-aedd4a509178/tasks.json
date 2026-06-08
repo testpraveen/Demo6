@@ -1,0 +1,10 @@
+{
+  "tasks": [
+    {
+      "id": 934875621534863361,
+      "job_id": "bc3c6be1-3598-48c0-8e8d-aedd4a509178",
+      "query": "REPLICATE [CUSTOMERS] SELECT * FROM [C##CDATA_CDC].[CUSTOMERS]",
+      "is_active": true
+    }
+  ]
+}

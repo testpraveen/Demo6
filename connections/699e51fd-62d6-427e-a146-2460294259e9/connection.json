@@ -1,0 +1,24 @@
+{
+  "id": "699e51fd-62d6-427e-a146-2460294259e9",
+  "display_name": "oracledestination55",
+  "name": "oracledestination55",
+  "connector": {
+    "name": "Oracle",
+    "version": "latest"
+  },
+  "properties": {
+    "Server": "localhost",
+    "Password": "SECURE:kFUZOeqe+CqxbUCNX2oxcC7/udB+fzO+PCvvV2/5IJLVeV/nLdN8xXb9f8KLaNt1",
+    "Port": "1521",
+    "ConnectionType": "SID",
+    "User": "",
+    "SID": "ORCL"
+  },
+  "labels": [],
+  "settings": {
+    "verbosity": 0,
+    "use_cdata_callback_url": 0,
+    "metadata_refresh_interval": 3600,
+    "use_sync_proxy": 0
+  }
+}

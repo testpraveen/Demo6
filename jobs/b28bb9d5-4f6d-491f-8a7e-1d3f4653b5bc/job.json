@@ -1,0 +1,48 @@
+{
+  "id": "b28bb9d5-4f6d-491f-8a7e-1d3f4653b5bc",
+  "name": "PostgresNativeTest",
+  "pipeline_id": null,
+  "type": 11,
+  "source_connector": "postgresnativesource",
+  "destination_connector": "serverdestinationtest",
+  "schedule": {
+    "enabled": false,
+    "cron": ""
+  },
+  "alerts": {
+    "send_email": false,
+    "email_to": "kishore20081996@gmail.com",
+    "email_error_only": true
+  },
+  "properties": {
+    "enable_parallel_processing": false,
+    "worker_pool": 2,
+    "verbosity": 2,
+    "destination_schema": "dbo",
+    "automatic_job_retry": true
+  },
+  "replicate_options": {
+    "replicate_start_date": null,
+    "replicate_interval": 180,
+    "replicate_interval_unit": "days",
+    "snapshot_size": "1000000",
+    "skip_snapshot": "false",
+    "alter_schema": true,
+    "drop_table": false,
+    "truncate_table_data": false,
+    "table_name_prefix": "",
+    "table_name_suffix": "",
+    "continue_on_error": true,
+    "deletion_behavior": "SoftDelete",
+    "insert_mode": "FilePerBatch",
+    "auto_truncate_Strings": true,
+    "use_gmt_datetime": false,
+    "command_timeout": 300,
+    "additional_options": "batchsize=500000"
+  },
+  "events": {
+    "pre_job": null,
+    "post_job": null
+  },
+  "labels": []
+}

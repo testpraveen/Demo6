@@ -1,0 +1,24 @@
+{
+  "id": "ba283e46-af9d-4011-a55b-40c5708821f4",
+  "display_name": "MysqlSource",
+  "name": "mysqlsource",
+  "connector": {
+    "name": "CData MySQL",
+    "version": "24.0.9490.0"
+  },
+  "properties": {
+    "Server": "mysql.support.clouddataos.com",
+    "AuthScheme": "Password",
+    "Password": "SECURE:2PseoDKHTR7xiRpJ79cgWJsvZzmqv6+V98Jtf+gOqlS0xhWZHGSBSGUrUtDxOA/O5op/ZB6zkVc4t4uo/YgvBSBQRmc=",
+    "Database": "support",
+    "Port": "3307",
+    "User": "root"
+  },
+  "labels": [],
+  "settings": {
+    "verbosity": 0,
+    "use_cdata_callback_url": 0,
+    "metadata_refresh_interval": 3600,
+    "use_sync_proxy": 0
+  }
+}

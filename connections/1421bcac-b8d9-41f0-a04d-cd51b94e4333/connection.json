@@ -1,0 +1,20 @@
+{
+  "id": "1421bcac-b8d9-41f0-a04d-cd51b94e4333",
+  "display_name": "CSVSource",
+  "name": "csvsource",
+  "connector": {
+    "name": "CData CSV",
+    "version": "latest"
+  },
+  "properties": {
+    "AuthScheme": "None",
+    "ConnectionType": "Local"
+  },
+  "labels": [],
+  "settings": {
+    "verbosity": 0,
+    "use_cdata_callback_url": 0,
+    "metadata_refresh_interval": 3600,
+    "use_sync_proxy": 0
+  }
+}

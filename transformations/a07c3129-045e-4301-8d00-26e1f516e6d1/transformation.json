@@ -1,0 +1,22 @@
+{
+  "id": "a07c3129-045e-4301-8d00-26e1f516e6d1",
+  "name": "sqlTransformation",
+  "pipeline_id": null,
+  "type": 4,
+  "destination_connector": "serverdestinationtest",
+  "trigger": {
+    "type": ""
+  },
+  "alerts": {
+    "send_email": false,
+    "email_to": "kishore20081996@gmail.com",
+    "email_error_only": true
+  },
+  "properties": {
+    "enable_parallel_processing": false,
+    "worker_pool": 2,
+    "verbosity": 2,
+    "command_timeout": 300
+  },
+  "labels": []
+}

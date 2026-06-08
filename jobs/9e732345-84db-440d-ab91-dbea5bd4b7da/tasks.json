@@ -1,0 +1,16 @@
+{
+  "tasks": [
+    {
+      "id": 928518085982425089,
+      "job_id": "9e732345-84db-440d-ab91-dbea5bd4b7da",
+      "query": "REPLICATE [CDATA].[TestTable] SELECT * FROM [support].[TestTable]",
+      "is_active": true
+    },
+    {
+      "id": 934697963907846145,
+      "job_id": "9e732345-84db-440d-ab91-dbea5bd4b7da",
+      "query": "REPLICATE [DB2INST1].[users_test1] SELECT * FROM [support].[users_test]",
+      "is_active": true
+    }
+  ]
+}

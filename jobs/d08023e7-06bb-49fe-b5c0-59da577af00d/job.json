@@ -1,0 +1,48 @@
+{
+  "id": "d08023e7-06bb-49fe-b5c0-59da577af00d",
+  "name": "DB2NativeTestCDC",
+  "pipeline_id": "",
+  "type": 11,
+  "source_connector": "db2nativesourcecdc",
+  "destination_connector": "mysqlsource",
+  "schedule": {
+    "enabled": false,
+    "cron": ""
+  },
+  "alerts": {
+    "send_email": true,
+    "email_to": "kishore20081996@gmail.com",
+    "email_error_only": true
+  },
+  "properties": {
+    "enable_parallel_processing": false,
+    "worker_pool": 2,
+    "verbosity": 2,
+    "destination_schema": "support",
+    "automatic_job_retry": false
+  },
+  "replicate_options": {
+    "replicate_start_date": null,
+    "replicate_interval": 180,
+    "replicate_interval_unit": "days",
+    "snapshot_size": "1000000",
+    "skip_snapshot": "false",
+    "alter_schema": true,
+    "drop_table": false,
+    "truncate_table_data": false,
+    "table_name_prefix": "",
+    "table_name_suffix": "",
+    "continue_on_error": true,
+    "deletion_behavior": "SoftDelete",
+    "insert_mode": "FilePerBatch",
+    "auto_truncate_Strings": true,
+    "use_gmt_datetime": false,
+    "command_timeout": 300,
+    "additional_options": ""
+  },
+  "events": {
+    "pre_job": "",
+    "post_job": ""
+  },
+  "labels": []
+}

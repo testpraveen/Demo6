@@ -1,0 +1,24 @@
+{
+  "id": "b45dac5b-6514-4b11-a352-59cb44bcb1d1",
+  "display_name": "OracleTestSource",
+  "name": "oracletestsource",
+  "connector": {
+    "name": "CData Oracle",
+    "version": "latest"
+  },
+  "properties": {
+    "Server": "localhost",
+    "Password": "SECURE:4sy1cPTpdd6tf85m02HuZSL1z23hR/EKHRB/D16MSpq/xoqCS+pLPLnOgyNCewUQMZfhzy1Wf0EE",
+    "NativeFolder": "C:\\ProgramData\\CData\\sync\\libs\\oracleoci\\9210\\x64",
+    "ServiceName": "ORACLEDB",
+    "ConnectionType": "Server",
+    "User": "C##BRAJAN"
+  },
+  "labels": [],
+  "settings": {
+    "verbosity": 0,
+    "use_cdata_callback_url": 0,
+    "metadata_refresh_interval": 3600,
+    "use_sync_proxy": 0
+  }
+}

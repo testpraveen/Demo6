@@ -1,0 +1,28 @@
+{
+  "tasks": [
+    {
+      "id": 937359114873475073,
+      "job_id": "1d50828d-bf3a-452e-8678-ddceeaba36b3",
+      "query": "REPLICATE [CUSTOMERS] SELECT * FROM [C##BRAJAN].[CUSTOMERS]",
+      "is_active": true
+    },
+    {
+      "id": 937389109683556353,
+      "job_id": "1d50828d-bf3a-452e-8678-ddceeaba36b3",
+      "query": "REPLICATE [CDC_PK_TESTING] SELECT * FROM [C##BRAJAN].[CDC_PK_TESTING]",
+      "is_active": true
+    },
+    {
+      "id": 937706219429302273,
+      "job_id": "1d50828d-bf3a-452e-8678-ddceeaba36b3",
+      "query": "REPLICATE [CDC_REPRO_TEST] SELECT * FROM [C##BRAJAN].[CDC_REPRO_TEST]",
+      "is_active": true
+    },
+    {
+      "id": 937712078871990273,
+      "job_id": "1d50828d-bf3a-452e-8678-ddceeaba36b3",
+      "query": "REPLICATE [CDC_NO_PK_REPRO] SELECT * FROM [C##BRAJAN].[CDC_NO_PK_REPRO]",
+      "is_active": true
+    }
+  ]
+}

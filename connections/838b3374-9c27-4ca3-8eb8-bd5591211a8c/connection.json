@@ -1,0 +1,23 @@
+{
+  "id": "838b3374-9c27-4ca3-8eb8-bd5591211a8c",
+  "display_name": "testing13",
+  "name": "testing13",
+  "connector": {
+    "name": "DB2",
+    "version": "latest"
+  },
+  "properties": {
+    "Server": "localhost",
+    "Database": "TESTDB",
+    "Password": "SECURE:nqKJY2e3BHAu6snoKOoJSZCmd0z8sdxMNJvycsVLQEc1aTE9U75WAbDUUXpWseovUXJM1Fb1qu8=",
+    "Port": "50000",
+    "User": "db2inst1"
+  },
+  "labels": [],
+  "settings": {
+    "verbosity": 0,
+    "use_cdata_callback_url": 0,
+    "metadata_refresh_interval": 3600,
+    "use_sync_proxy": 0
+  }
+}

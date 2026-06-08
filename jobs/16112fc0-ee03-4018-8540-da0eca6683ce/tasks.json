@@ -1,0 +1,10 @@
+{
+  "tasks": [
+    {
+      "id": 954642690652377089,
+      "job_id": "16112fc0-ee03-4018-8540-da0eca6683ce",
+      "query": "REPLICATE [Employee_CDC] SELECT * FROM [dbo].[Employee_CDC]",
+      "is_active": true
+    }
+  ]
+}

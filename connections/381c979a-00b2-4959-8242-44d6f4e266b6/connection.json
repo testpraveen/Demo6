@@ -1,0 +1,23 @@
+{
+  "id": "381c979a-00b2-4959-8242-44d6f4e266b6",
+  "display_name": "MYOBSourceTesting",
+  "name": "myobsourcetesting",
+  "connector": {
+    "name": "CData MYOB",
+    "version": "25.0.9543.0"
+  },
+  "properties": {
+    "AuthScheme": "Basic",
+    "Instance": "OnPremise",
+    "CompanyFileId": "8c9e581f-f777-4820-8175-9b5b0072759e",
+    "User": "Administrator",
+    "URL": "https://login.myob.com/Account/Login?client_id=0fe65ef8-799e-456a-9a32-58bbd91a8492&redirect_uri=%2Foauth2%2Fauthorize%3Fresponse_type%3Did_token%2Btoken%26client_id%3D0fe65ef8-799e-456a-9a32-58bbd91a8492%26redirect_uri%3Dhttps%253a%252f%252fmy.account.myob.com%252flogin-callback.html%26resource%3D00000002-0000-0000-c000-000000000000%26scope%3Dopenid%26state%3D53c25667-2558-4cb0-adf0-080480d8cb71_e30%253d%26nonce%3Db3491516-f008-4210-8946-db022d32141f%26client-request-id%3Def559a2a-c259-4503-b551-2d39d245571c%26x-client-sku%3Djs%26x-client-ver%3D1.0.0&screen_hint=login"
+  },
+  "labels": [],
+  "settings": {
+    "verbosity": 0,
+    "use_cdata_callback_url": 0,
+    "metadata_refresh_interval": 3600,
+    "use_sync_proxy": 0
+  }
+}

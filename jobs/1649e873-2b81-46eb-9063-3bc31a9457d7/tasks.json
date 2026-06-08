@@ -1,0 +1,22 @@
+{
+  "tasks": [
+    {
+      "id": 926395615628365825,
+      "job_id": "1649e873-2b81-46eb-9063-3bc31a9457d7",
+      "query": "REPLICATE [Clients] SELECT * FROM [Clients]",
+      "is_active": true
+    },
+    {
+      "id": 926396093774827522,
+      "job_id": "1649e873-2b81-46eb-9063-3bc31a9457d7",
+      "query": "REPLICATE [Jobs] SELECT * FROM [Jobs]",
+      "is_active": true
+    },
+    {
+      "id": 926396093774827524,
+      "job_id": "1649e873-2b81-46eb-9063-3bc31a9457d7",
+      "query": "REPLICATE [Projects] SELECT * FROM [Projects]",
+      "is_active": true
+    }
+  ]
+}

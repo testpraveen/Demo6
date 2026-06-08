@@ -1,0 +1,23 @@
+{
+  "id": "7358b5e5-b807-458c-b804-95e67dc14fd2",
+  "display_name": "nativetesting",
+  "name": "nativetesting",
+  "connector": {
+    "name": "DB2",
+    "version": "latest"
+  },
+  "properties": {
+    "Server": "localhost",
+    "Database": "TESTDB",
+    "Password": "SECURE:AUf/V9NO7uAA8du5id90jfORS8Liw9r/x/LKQXsRSlFRPYh4diySMpuXgIGCRx8tC6aZLDoL8ds=",
+    "Port": "50000",
+    "User": "db2inst1"
+  },
+  "labels": [],
+  "settings": {
+    "verbosity": 0,
+    "use_cdata_callback_url": 0,
+    "metadata_refresh_interval": 3600,
+    "use_sync_proxy": 0
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "tasks": [
+    {
+      "id": 945672155125911553,
+      "job_id": "2d21f9ac-a009-4e59-be04-94a729aeac74",
+      "query": "REPLICATE [EMPLOYEE11] SELECT * FROM [DB2INST1].[EMPLOYEE11]",
+      "is_active": true
+    }
+  ]
+}

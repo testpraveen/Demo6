@@ -1,0 +1,23 @@
+{
+  "id": "1e1bb381-e41a-47c0-a0bd-3728e1f48458",
+  "display_name": "JiraSourceTest",
+  "name": "jirasourcetest",
+  "connector": {
+    "name": "CData JIRA",
+    "version": "25.0.9595.0"
+  },
+  "properties": {
+    "APIToken": "SECURE:AYP59Sx4iEB7plcpqaC5H5c1PH0ZKsyrKyi0P3Ti0P06GVYAMlYt4/FKgj6nBYAq6/nsDe6olMzQZICsf1/Eahgi/ZKzeFkf/QvTWcxIzoTM8TadFwIkeIEtVvxwX+Lvz26WDulNlFydS5MUdUYz7cVq0PkgEmfoEJSk7Tbp/LByo+lgynQnnOX6sJAWsdY+OIMwW7ph6WZiOeRiB6FBShAGykVjSKQTXFxaVBbSTPJCZQB4HVEd6h5L6HdSePbWxVMUZhbiq7ulzwmk69cAYECNqGdGrJNc6yTLBgW0NPr6PgN7JVrqTzVVcmGKO5SY",
+    "AuthScheme": "APIToken",
+    "IncludeCustomFields": "True",
+    "User": "supportsvc@cdata.com",
+    "URL": "https://cdatasoftware.atlassian.net"
+  },
+  "labels": [],
+  "settings": {
+    "verbosity": 0,
+    "use_cdata_callback_url": 0,
+    "metadata_refresh_interval": 3600,
+    "use_sync_proxy": 0
+  }
+}

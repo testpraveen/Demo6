@@ -1,0 +1,10 @@
+{
+  "tasks": [
+    {
+      "id": 938069337447731201,
+      "job_id": "827ae9a3-8fa1-4f28-a7b1-08385447bb61",
+      "query": "REPLICATE [CDATA].[SALES_DATA] ([ID] INTEGER, PRIMARY KEY([ID])) WITH DropTable = 'false' SELECT * FROM [support].[sales_data]",
+      "is_active": true
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "id": "a5c68c7a-1d77-4f61-b939-111efde23b70",
+  "display_name": "SAPConcur",
+  "name": "sapconcur",
+  "connector": {
+    "name": "CData SAPConcur",
+    "version": "latest"
+  },
+  "properties": {
+    "AuthScheme": "OAuthPassword",
+    "Password": "SECURE:5TYWgu+AaEDe/4V8vFcRE5rIs5OtCY+gIK9RI0CVdCADxKbUL8gS862LlUSED1B+MblaW8nHHmhenEMoz+W5eQPoOA==",
+    "OAuthClientId": "26cab419-86bb-40c2-9ed0-d504a23b4971",
+    "OAuthClientSecret": "SECURE:vwTNCrAOrnTD+TPkBvShEYDmoGMfpmHeBoHJiNNstCw+tYS/j53u/rQ9UOENh94uXcJmC7xFcwk64dJaq6auAmo3mGplDBbi0Wd0oHEyBkM69yjQ",
+    "Region": "US",
+    "ConcurInstanceURL": "https://us2.api.concursolutions.com",
+    "Username": "WSAdmin@cdata"
+  },
+  "labels": [],
+  "settings": {
+    "verbosity": 0,
+    "use_cdata_callback_url": 0,
+    "metadata_refresh_interval": 3600,
+    "use_sync_proxy": 0
+  }
+}

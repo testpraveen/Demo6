@@ -1,0 +1,34 @@
+{
+  "tasks": [
+    {
+      "id": 962228744301449217,
+      "job_id": "ec91d5fd-57c5-4784-a16f-4b58fd043f63",
+      "query": "REPLICATE [GroupsUsers] SELECT * FROM [GroupsUsers]",
+      "is_active": true
+    },
+    {
+      "id": 962578966189838337,
+      "job_id": "ec91d5fd-57c5-4784-a16f-4b58fd043f63",
+      "query": "REPLICATE [Sprints] SELECT * FROM [Sprints]",
+      "is_active": true
+    },
+    {
+      "id": 965544435393892353,
+      "job_id": "ec91d5fd-57c5-4784-a16f-4b58fd043f63",
+      "query": "REPLICATE [Users] SELECT * FROM [Users]",
+      "is_active": true
+    },
+    {
+      "id": 966954245440016385,
+      "job_id": "ec91d5fd-57c5-4784-a16f-4b58fd043f63",
+      "query": "REPLICATE [Groups] SELECT * FROM [Groups]",
+      "is_active": true
+    },
+    {
+      "id": 967320608327208961,
+      "job_id": "ec91d5fd-57c5-4784-a16f-4b58fd043f63",
+      "query": "REPLICATE [ProjectsUsers] SELECT * FROM [ProjectsUsers] WHERE ProjectKey = 'DND'",
+      "is_active": true
+    }
+  ]
+}

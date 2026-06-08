@@ -1,0 +1,22 @@
+{
+  "id": "9a8bc1d5-7d77-4d37-8048-be8c5941f155",
+  "display_name": "XeroSource",
+  "name": "xerosource",
+  "connector": {
+    "name": "CData Xero",
+    "version": "latest"
+  },
+  "properties": {
+    "Schema": "FILES",
+    "AuthScheme": "OAuth",
+    "OAuthClientId": "2BC2C09123E044F5B804C88CAD5BB790",
+    "OAuthClientSecret": "SECURE:USa3t8OLkRol3EhcEc8CnDNjDItH3fProsZv3bn2ukuS3iLmIPxEPhbb1KQlqQcoAWVcsDL+JOjOfJcu1+y4Iusk57TV/QYdIL0IP6SqepbNA3R6FUwx1Cm9Z7ZBf6Fw"
+  },
+  "labels": [],
+  "settings": {
+    "verbosity": 0,
+    "use_cdata_callback_url": 1,
+    "metadata_refresh_interval": 3600,
+    "use_sync_proxy": 0
+  }
+}

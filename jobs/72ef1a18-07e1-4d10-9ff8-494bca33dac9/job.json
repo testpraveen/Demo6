@@ -1,0 +1,48 @@
+{
+  "id": "72ef1a18-07e1-4d10-9ff8-494bca33dac9",
+  "name": "servertos3",
+  "pipeline_id": null,
+  "type": 1,
+  "source_connector": "server1",
+  "destination_connector": "amazons3sourcetest",
+  "schedule": {
+    "enabled": false,
+    "cron": ""
+  },
+  "alerts": {
+    "send_email": false,
+    "email_to": "kishore20081996@gmail.com",
+    "email_error_only": true
+  },
+  "properties": {
+    "enable_parallel_processing": false,
+    "worker_pool": 2,
+    "verbosity": 2,
+    "destination_schema": "",
+    "automatic_job_retry": false
+  },
+  "replicate_options": {
+    "replicate_start_date": null,
+    "replicate_interval": 180,
+    "replicate_interval_unit": "days",
+    "snapshot_size": "1000000",
+    "skip_snapshot": "false",
+    "alter_schema": true,
+    "drop_table": false,
+    "truncate_table_data": false,
+    "table_name_prefix": "",
+    "table_name_suffix": null,
+    "continue_on_error": true,
+    "deletion_behavior": "HardDelete",
+    "insert_mode": null,
+    "auto_truncate_Strings": true,
+    "use_gmt_datetime": false,
+    "command_timeout": 300,
+    "additional_options": "batchsize=50000"
+  },
+  "events": {
+    "pre_job": null,
+    "post_job": null
+  },
+  "labels": []
+}

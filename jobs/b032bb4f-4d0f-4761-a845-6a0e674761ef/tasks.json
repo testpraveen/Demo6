@@ -1,0 +1,22 @@
+{
+  "tasks": [
+    {
+      "id": 937286174307913729,
+      "job_id": "b032bb4f-4d0f-4761-a845-6a0e674761ef",
+      "query": "REPLICATE [accounts] SELECT * FROM [dbo].[accounts]",
+      "is_active": false
+    },
+    {
+      "id": 945176116614795265,
+      "job_id": "b032bb4f-4d0f-4761-a845-6a0e674761ef",
+      "query": "REPLICATE [CUST_BOOK3] SELECT * FROM [dbo].[CUST_BOOK3]",
+      "is_active": false
+    },
+    {
+      "id": 946638488764289025,
+      "job_id": "b032bb4f-4d0f-4761-a845-6a0e674761ef",
+      "query": "REPLICATE [Test_Source_241] SELECT * FROM [dbo].[Test_Source_241]",
+      "is_active": false
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "tasks": [
+    {
+      "id": 926311217100886017,
+      "job_id": "523dab2b-a226-4821-b49f-c97e0acefffe",
+      "query": "REPLICATE [dbo].[TESTDATA1] WITH IncrementalCheckColumns = 'ModifiedDate' SELECT * FROM [TESTDATA1.xlsx].[TESTDATA]",
+      "is_active": true
+    }
+  ]
+}

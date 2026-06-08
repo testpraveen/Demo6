@@ -1,0 +1,24 @@
+{
+  "id": "02dd96d9-c0ba-4060-baa1-f9c3ccdae17f",
+  "display_name": "OracleNativeDestinationTest",
+  "name": "oraclenativedestinationtest",
+  "connector": {
+    "name": "Oracle",
+    "version": "latest"
+  },
+  "properties": {
+    "Server": "localhost",
+    "Password": "SECURE:jSpCbDlpk5onrhXDHWym6+KKvlSOXEdmjFzMbtjeUNg7Epa9U7E9i2rlElY/iYr+YXxAR3BOXNHo",
+    "Port": "1521",
+    "Service": "ORACLEDB",
+    "ConnectionType": "Service Name",
+    "User": "C##BRAJAN"
+  },
+  "labels": [],
+  "settings": {
+    "verbosity": 0,
+    "use_cdata_callback_url": 0,
+    "metadata_refresh_interval": 3600,
+    "use_sync_proxy": 0
+  }
+}

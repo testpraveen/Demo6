@@ -1,0 +1,26 @@
+{
+  "id": "22ebb1ff-31d0-4ec4-ab2f-b204d7b3af04",
+  "display_name": "sqlcdatadriver",
+  "name": "sqlcdatadriver",
+  "connector": {
+    "name": "CData SQL",
+    "version": "latest"
+  },
+  "properties": {
+    "Server": "localhost",
+    "AuthScheme": "Password",
+    "Database": "CDC_Test_DB",
+    "Password": "SECURE:a6TR3AjxNrfwmwdvI3q459Z7wA7etBB+4/PDoai9x2qxB5Rblij6JzulLcu3t8b/SUz4p4o=",
+    "Port": "1433",
+    "Encrypt": "False",
+    "UseSSH": "False",
+    "User": "kishore"
+  },
+  "labels": [],
+  "settings": {
+    "verbosity": 0,
+    "use_cdata_callback_url": 0,
+    "metadata_refresh_interval": 3600,
+    "use_sync_proxy": 0
+  }
+}

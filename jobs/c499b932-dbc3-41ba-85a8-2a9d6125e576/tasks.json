@@ -1,0 +1,22 @@
+{
+  "tasks": [
+    {
+      "id": 944163414421409793,
+      "job_id": "c499b932-dbc3-41ba-85a8-2a9d6125e576",
+      "query": "REPLICATE [ConsolidatedExchangeRate] SELECT * FROM [ConsolidatedExchangeRate]",
+      "is_active": true
+    },
+    {
+      "id": 944163414421409795,
+      "job_id": "c499b932-dbc3-41ba-85a8-2a9d6125e576",
+      "query": "REPLICATE [CurrencyRate] SELECT * FROM [CurrencyRate]",
+      "is_active": true
+    },
+    {
+      "id": 980019465150402561,
+      "job_id": "c499b932-dbc3-41ba-85a8-2a9d6125e576",
+      "query": "REPLICATE [Transactions] SELECT * FROM [Transactions]",
+      "is_active": true
+    }
+  ]
+}

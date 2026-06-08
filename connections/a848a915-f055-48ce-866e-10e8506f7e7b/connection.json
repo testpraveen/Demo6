@@ -1,0 +1,26 @@
+{
+  "id": "a848a915-f055-48ce-866e-10e8506f7e7b",
+  "display_name": "ZohoPeopleProfileSourceTest",
+  "name": "zohopeopleprofilesourcetest",
+  "connector": {
+    "name": "CData API Profile For ZohoPeople",
+    "version": "latest"
+  },
+  "properties": {
+    "AuthScheme": "Basic",
+    "OAuthVersion": "2.0",
+    "Password": "SECURE:Ik3/w/c+2jS0orh/USpbsdk33IcDw2vwSPJ2EFal+mzUzewRczgI5HJ+lir6iYQs4yMIkhWoZ6sjYw==",
+    "OAuthClientId": "1000.ZYKH23CMFBJ7XVEJPSJPP8Y99W7N8E",
+    "Profile": "C:\\ProgramData\\CData\\sync\\profiles\\ZohoPeople.apip",
+    "OAuthClientSecret": "SECURE:Q2116viOE2MViNKW6TueY2bUde7I//xBnFX0fo2d2FeoB43QtgoWosxYy5HXbiYtMomHkd3Sr5yZMKqGvhXUw4Zy4bokjflhLjNMgffgSaYX5OowGxmZqSRB",
+    "User": "johng@cdata.com",
+    "URL": "https://www.zoho.com/crm/login.html"
+  },
+  "labels": [],
+  "settings": {
+    "verbosity": 0,
+    "use_cdata_callback_url": 0,
+    "metadata_refresh_interval": 3600,
+    "use_sync_proxy": 0
+  }
+}

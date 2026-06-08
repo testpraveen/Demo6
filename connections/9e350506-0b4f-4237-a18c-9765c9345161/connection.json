@@ -1,0 +1,24 @@
+{
+  "id": "9e350506-0b4f-4237-a18c-9765c9345161",
+  "display_name": "SalesforceSourceTest1",
+  "name": "salesforcesourcetest1",
+  "connector": {
+    "name": "CData Salesforce",
+    "version": "latest"
+  },
+  "properties": {
+    "AuthScheme": "OAuth",
+    "Password": "SECURE:zor8vG7F/v1cvSmhcfVtr8lj+w/fxkylbxs8Fp9Tk0edl3BVI2xv1UfU51dd3x021CQV7GKfNd7KCUIRY2CGJTB4bq4=",
+    "SecurityToken": "SECURE:+U01NW4ZWT7Tzd1FkBoVTLoaxMfMu+T52NlqdSnys3uTV7RRZYsI1i5o1bLKYeex4XdPvph6yG6DXzBlX3yGCLfant6L7ZeaOg==",
+    "LoginURL": "https://nsoftware-dev-ed.my.salesforce.com/?stbdtimeout=1&login_hint=support%40nsoftware.com",
+    "Scope": "refresh_token api",
+    "User": "support@nsoftware.com"
+  },
+  "labels": [],
+  "settings": {
+    "verbosity": 0,
+    "use_cdata_callback_url": 0,
+    "metadata_refresh_interval": 3600,
+    "use_sync_proxy": 0
+  }
+}

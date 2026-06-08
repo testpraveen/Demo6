@@ -1,0 +1,24 @@
+{
+  "id": "3eac5b88-e1cf-48d7-95fc-bb6e4b5a9249",
+  "display_name": "DB2Source",
+  "name": "db2source",
+  "connector": {
+    "name": "CData DB2",
+    "version": "25.0.9539.0"
+  },
+  "properties": {
+    "Server": "db2.support.clouddataos.com",
+    "AuthScheme": "USRIDPWD",
+    "Database": "SUPPORT",
+    "Password": "SECURE:eHAW665v2fDta8ATAYH8C3RalJmvCK3aweck9lseHVBNMNy3SgGXbrE3pAYBhenoyDjimutgovbq0+wTDamEmDvoyvU=",
+    "Port": "50000",
+    "User": "DB2INST1"
+  },
+  "labels": [],
+  "settings": {
+    "verbosity": 0,
+    "use_cdata_callback_url": 0,
+    "metadata_refresh_interval": 3600,
+    "use_sync_proxy": 0
+  }
+}

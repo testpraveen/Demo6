@@ -1,0 +1,28 @@
+{
+  "id": "97ddf7cd-185e-4a49-a62b-10119908c0fc",
+  "display_name": "RestAxiomTestSource",
+  "name": "restaxiomtestsource",
+  "connector": {
+    "name": "CData REST",
+    "version": "latest"
+  },
+  "properties": {
+    "AuthScheme": "None",
+    "Other": "customheaders=\"Authorization: Bearer xaat-c18ed658-9d08-4399-9b7a-cba1671db16d\";",
+    "AzureStorageAccount": "default",
+    "ApiKey": "SECURE:F4xCpfq0XqjI3p0mj9cIQA1DIrNvcn/rMHgPKwxqVivqLIvNT5XfTMLgwhyihufrYhETxmnFQYMSVodd9EnhW/nJ0S/OX7SOUKYtw1NM1hucnjldcs8UDSY=",
+    "Format": "JSON",
+    "OracleNamespace": "default",
+    "customheaders": "Authorization: Bearer xaat-c18ed658-9d08-4399-9b7a-cba1671db16d",
+    "Region": "US East 1",
+    "URI": "https://api.axiom.co/v1/datasets",
+    "AWSRegion": "NORTHERNVIRGINIA"
+  },
+  "labels": [],
+  "settings": {
+    "verbosity": 0,
+    "use_cdata_callback_url": 0,
+    "metadata_refresh_interval": 3600,
+    "use_sync_proxy": 0
+  }
+}

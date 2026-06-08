@@ -1,0 +1,23 @@
+{
+  "id": "2d897d78-42a6-4fd2-8104-e0112be88a4b",
+  "display_name": "DB2Destination",
+  "name": "db2destination",
+  "connector": {
+    "name": "DB2",
+    "version": "latest"
+  },
+  "properties": {
+    "Server": "db2.support.clouddataos.com",
+    "Database": "SUPPORT",
+    "Password": "SECURE:W3C7u4kPGQzvmN323RrBeSn8b+opF5ADUugBzBDZk/WkdDe+lPWd3+b92CoPJrOb70l8vUJxV/64JsnrCn6pdGGldl4=",
+    "Port": "50000",
+    "User": "DB2INST1"
+  },
+  "labels": [],
+  "settings": {
+    "verbosity": 0,
+    "use_cdata_callback_url": 0,
+    "metadata_refresh_interval": 3600,
+    "use_sync_proxy": 0
+  }
+}

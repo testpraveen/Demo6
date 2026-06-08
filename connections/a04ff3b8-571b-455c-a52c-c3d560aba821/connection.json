@@ -1,0 +1,22 @@
+{
+  "id": "a04ff3b8-571b-455c-a52c-c3d560aba821",
+  "display_name": "ServiceNowSourceTest",
+  "name": "servicenowsourcetest",
+  "connector": {
+    "name": "CData ServiceNow",
+    "version": "latest"
+  },
+  "properties": {
+    "AuthScheme": "Basic",
+    "Password": "SECURE:g4/6p0GAsCcXAt+7ZRhsEZLrpSJFdrxUqv2KBuMfx3HgLRpL8pwD4efGJPD3t3I8s82107RdlmUzfsmBqCyQD2pYAVQ=",
+    "User": "admin",
+    "URL": "https://ven06096.service-now.com/"
+  },
+  "labels": [],
+  "settings": {
+    "verbosity": 0,
+    "use_cdata_callback_url": 0,
+    "metadata_refresh_interval": 3600,
+    "use_sync_proxy": 0
+  }
+}

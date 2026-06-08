@@ -1,0 +1,22 @@
+{
+  "id": "f52281c9-38ff-4d55-8775-b415fd7a1696",
+  "display_name": "XMLSourceTest",
+  "name": "xmlsourcetest",
+  "connector": {
+    "name": "CData XML",
+    "version": "latest"
+  },
+  "properties": {
+    "AuthScheme": "None",
+    "DataModel": "Document",
+    "ConnectionType": "Local",
+    "URI": "C:/test.xml"
+  },
+  "labels": [],
+  "settings": {
+    "verbosity": 0,
+    "use_cdata_callback_url": 0,
+    "metadata_refresh_interval": 3600,
+    "use_sync_proxy": 0
+  }
+}

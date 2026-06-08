@@ -1,0 +1,24 @@
+{
+  "id": "b69d2847-3440-4b66-8f4d-0963cbad13df",
+  "display_name": "DynamicCRMsourceTest1",
+  "name": "dynamiccrmsourcetest1",
+  "connector": {
+    "name": "CData DynamicsCRM",
+    "version": "24.0.9081.0"
+  },
+  "properties": {
+    "AuthScheme": "AzureServicePrincipal",
+    "OAuthClientId": "c15fb782-e088-4b90-ac31-5ad6afc87697",
+    "AzureTenant": "9a0d4126-63c3-4bd2-9e63-19d26e36f09e",
+    "OAuthClientSecret": "SECURE:8MYKWy0bBgBtz8tpQTCMzPyaQdsDupkhrBZjYhLQ6XxRfrghhLUS5PqoRregk6ut+G+I74Z5laHhxCwG2l/L4QHQYtAM/EQ6aw0ntKe4tDUoAiBr2UtYwQ==",
+    "URL": "https://org9c83d1f1.crm.dynamics.com",
+    "CRMVersion": "CRMOnline"
+  },
+  "labels": [],
+  "settings": {
+    "verbosity": 5,
+    "use_cdata_callback_url": 0,
+    "metadata_refresh_interval": 3600,
+    "use_sync_proxy": 0
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "tasks": [
+    {
+      "id": 926317806495076353,
+      "job_id": "13a5546c-00d0-401b-a588-98efb2f63393",
+      "query": "REPLICATE [BankAccounts] WITH IncrementalCheckColumns = 'AccountId' SELECT * FROM [BankAccounts]",
+      "is_active": true
+    },
+    {
+      "id": 926321676629708801,
+      "job_id": "13a5546c-00d0-401b-a588-98efb2f63393",
+      "query": "REPLICATE [Journals] SELECT * FROM [Journals]",
+      "is_active": true
+    },
+    {
+      "id": 965210715872956417,
+      "job_id": "13a5546c-00d0-401b-a588-98efb2f63393",
+      "query": "REPLICATE [CustomerPaymentInvoices] SELECT * FROM [CustomerPaymentInvoices]",
+      "is_active": true
+    },
+    {
+      "id": 965210843614679041,
+      "job_id": "13a5546c-00d0-401b-a588-98efb2f63393",
+      "query": "REPLICATE [BillVendorCredits] SELECT * FROM [BillVendorCredits] WHERE BillId IN (SELECT BillId FROM Bills)",
+      "is_active": true
+    }
+  ]
+}

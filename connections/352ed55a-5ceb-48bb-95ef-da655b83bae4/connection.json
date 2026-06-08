@@ -1,0 +1,24 @@
+{
+  "id": "352ed55a-5ceb-48bb-95ef-da655b83bae4",
+  "display_name": "testing15",
+  "name": "testing15",
+  "connector": {
+    "name": "DB2",
+    "version": "latest"
+  },
+  "properties": {
+    "Server": "localhost",
+    "Database": "SAMPLE",
+    "Password": "SECURE:OeZALfjoEtJND1ly6GMoYexy5OWjRVfvZmpPSUztWoMsn6z8LpiRTC+xJnxQY7Y7F58JWMfl31/ZG8A=",
+    "Other": "max.batch.size=5000",
+    "Port": "25010",
+    "User": "db2inst1"
+  },
+  "labels": [],
+  "settings": {
+    "verbosity": 0,
+    "use_cdata_callback_url": 0,
+    "metadata_refresh_interval": 3600,
+    "use_sync_proxy": 0
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "tasks": [
+    {
+      "id": 961567325763538945,
+      "job_id": "e5820144-36e2-44e9-97a7-2fc515999317",
+      "query": "REPLICATE [Glaccountbalance] SELECT * FROM [GLAccountBalance] ",
+      "is_active": true
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "id": "7d52ebb4-1e28-46de-b802-8b4ff67a74e2",
+  "display_name": "DB2NativeSource",
+  "name": "db2nativesource",
+  "connector": {
+    "name": "DB2",
+    "version": "latest"
+  },
+  "properties": {
+    "Server": "db2.support.clouddataos.com",
+    "Database": "SUPPORT",
+    "Password": "SECURE:Rel5A8x9L9qXrnsWrrJc2oCtdHKUVGfTeg/vrqK3utjC5Li+K+uKhbhk3mW8+e/Of2pBayXp6AFZJIcDZ4SGDj4SS48=",
+    "Port": "50000",
+    "User": "DB2INST1"
+  },
+  "labels": [],
+  "settings": {
+    "verbosity": 0,
+    "use_cdata_callback_url": 0,
+    "metadata_refresh_interval": 3600,
+    "use_sync_proxy": 0
+  }
+}

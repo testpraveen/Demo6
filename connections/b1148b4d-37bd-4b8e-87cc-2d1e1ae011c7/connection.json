@@ -1,0 +1,19 @@
+{
+  "id": "b1148b4d-37bd-4b8e-87cc-2d1e1ae011c7",
+  "display_name": "CosmosDBSource",
+  "name": "cosmosdbsource",
+  "connector": {
+    "name": "CData CosmosDB",
+    "version": "latest"
+  },
+  "properties": {
+    "AuthScheme": "AccountKey"
+  },
+  "labels": [],
+  "settings": {
+    "verbosity": 0,
+    "use_cdata_callback_url": 0,
+    "metadata_refresh_interval": 3600,
+    "use_sync_proxy": 0
+  }
+}

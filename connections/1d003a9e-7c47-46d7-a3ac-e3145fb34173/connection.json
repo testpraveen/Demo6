@@ -1,0 +1,25 @@
+{
+  "id": "1d003a9e-7c47-46d7-a3ac-e3145fb34173",
+  "display_name": "AzureSqlDatabaseDestination",
+  "name": "azuresqldatabasedestination",
+  "connector": {
+    "name": "Azure SQL DataBase",
+    "version": "latest"
+  },
+  "properties": {
+    "Server": "cdatasupport.database.windows.net",
+    "Database": "cdatasupport",
+    "Password": "SECURE:MzSGpfHyZqXsXUJ5nNZPsFngV/tLAeUdD7+0PXdHbgixDE4AEk2LQeXlP9Y9Q38KMSOpDycfO0XuP/COs314Oy5qS5f2kY6p5UZ7JdLXsdsjI7cyQTakOZX9y1p8jhJ9BAuYF9ZsAoGs3U8FzqPnKcxnpdB4T9+sDgQgacwRLW4VffnA2T5YeVIg/HhzNfvQiqK56vV7loS3",
+    "Port": "1433",
+    "TrustServerCertificate": "True",
+    "User": "cdatasupport",
+    "Authentication": "SqlPassword"
+  },
+  "labels": [],
+  "settings": {
+    "verbosity": 0,
+    "use_cdata_callback_url": 0,
+    "metadata_refresh_interval": 3600,
+    "use_sync_proxy": 0
+  }
+}

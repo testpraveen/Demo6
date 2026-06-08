@@ -1,0 +1,10 @@
+{
+  "tasks": [
+    {
+      "id": 924155085456543745,
+      "job_id": "a8460428-b3af-41e5-b647-83d48fab4ba5",
+      "query": "REPLICATE [GroupItems] SELECT * FROM [GroupItems]",
+      "is_active": true
+    }
+  ]
+}

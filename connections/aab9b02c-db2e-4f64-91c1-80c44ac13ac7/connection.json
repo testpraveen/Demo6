@@ -1,0 +1,23 @@
+{
+  "id": "aab9b02c-db2e-4f64-91c1-80c44ac13ac7",
+  "display_name": "PostgresSQLDestinationTest",
+  "name": "postgressqldestinationtest",
+  "connector": {
+    "name": "CData PostgreSQL",
+    "version": "latest"
+  },
+  "properties": {
+    "Server": "postgresql.support.clouddataos.com",
+    "AuthScheme": "Password",
+    "Password": "SECURE:0bFNrrabobaGuGS+mJy7K7LxP1HaLd5y6CSNhMOfvcIj02l/rfsmKhVtLo1FZCza3gDd9LbvlAbJQt2oAp7fSr3ttoQ=",
+    "Database": "support",
+    "User": "postgres"
+  },
+  "labels": [],
+  "settings": {
+    "verbosity": 0,
+    "use_cdata_callback_url": 0,
+    "metadata_refresh_interval": 3600,
+    "use_sync_proxy": 0
+  }
+}

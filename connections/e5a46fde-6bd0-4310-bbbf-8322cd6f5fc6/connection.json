@@ -1,0 +1,21 @@
+{
+  "id": "e5a46fde-6bd0-4310-bbbf-8322cd6f5fc6",
+  "display_name": "SmartSheetSource",
+  "name": "smartsheetsource",
+  "connector": {
+    "name": "CData Smartsheet",
+    "version": "latest"
+  },
+  "properties": {
+    "AuthScheme": "PersonalAccessToken",
+    "UseLegacyAPI": "True",
+    "PersonalAccessToken": "SECURE:v+y9sSMmIsp818rimoAIXdI6de/rytnpNLe0KGNBRWFKB+v+YPO+SNLVakIRx6j6zEF5jgYbQzMLdkD+Ap6WZ1A5Fls5g6kD6AE="
+  },
+  "labels": [],
+  "settings": {
+    "verbosity": 0,
+    "use_cdata_callback_url": 0,
+    "metadata_refresh_interval": 3600,
+    "use_sync_proxy": 0
+  }
+}

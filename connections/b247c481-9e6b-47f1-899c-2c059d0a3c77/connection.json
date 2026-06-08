@@ -1,0 +1,19 @@
+{
+  "id": "b247c481-9e6b-47f1-899c-2c059d0a3c77",
+  "display_name": "api",
+  "name": "api",
+  "connector": {
+    "name": "CData API",
+    "version": "latest"
+  },
+  "properties": {
+    "AuthScheme": "None"
+  },
+  "labels": [],
+  "settings": {
+    "verbosity": 0,
+    "use_cdata_callback_url": 0,
+    "metadata_refresh_interval": 3600,
+    "use_sync_proxy": 0
+  }
+}

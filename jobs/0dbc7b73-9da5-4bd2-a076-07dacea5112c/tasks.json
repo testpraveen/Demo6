@@ -1,0 +1,10 @@
+{
+  "tasks": [
+    {
+      "id": 973159545570463745,
+      "job_id": "0dbc7b73-9da5-4bd2-a076-07dacea5112c",
+      "query": "CHECKCACHE [CUSTOMER_TEST111]\nAGAINST (\n SELECT [ID], [MODIFIEDON]\n FROM [CUSTOMER_TEST111]\n)\nWITH REPAIR\nSKIP MODIFIED\nSTART DATEADD(mi, -60, CURRENT_DATE)",
+      "is_active": true
+    }
+  ]
+}

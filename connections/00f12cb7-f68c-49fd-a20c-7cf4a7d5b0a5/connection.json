@@ -1,0 +1,21 @@
+{
+  "id": "00f12cb7-f68c-49fd-a20c-7cf4a7d5b0a5",
+  "display_name": "OracleFusionCloudSource",
+  "name": "oraclefusioncloudsource",
+  "connector": {
+    "name": "CData OracleERP",
+    "version": "latest"
+  },
+  "properties": {
+    "Password": "SECURE:ECKI/1+5eX+v4fpzgU8ZR2E3gtAQ3+yVKqQc3auraKdnxtXeAXq+/v/0Gf1gMxyL/Xcz6ggXvKx8FZyvDowOJg==",
+    "User": "support@cdata.com",
+    "URL": "https://cloud.oracle.com/"
+  },
+  "labels": [],
+  "settings": {
+    "verbosity": 0,
+    "use_cdata_callback_url": 0,
+    "metadata_refresh_interval": 3600,
+    "use_sync_proxy": 0
+  }
+}

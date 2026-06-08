@@ -1,0 +1,21 @@
+{
+  "id": "cdebff41-f7da-4258-8fe3-43ee6e766ff4",
+  "display_name": "JsonSource",
+  "name": "jsonsource",
+  "connector": {
+    "name": "CData JSON",
+    "version": "latest"
+  },
+  "properties": {
+    "AuthScheme": "None",
+    "DataModel": "Document",
+    "ConnectionType": "Local"
+  },
+  "labels": [],
+  "settings": {
+    "verbosity": 0,
+    "use_cdata_callback_url": 0,
+    "metadata_refresh_interval": 3600,
+    "use_sync_proxy": 0
+  }
+}

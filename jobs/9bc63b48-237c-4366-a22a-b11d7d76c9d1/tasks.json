@@ -1,0 +1,10 @@
+{
+  "tasks": [
+    {
+      "id": 937730988786716673,
+      "job_id": "9bc63b48-237c-4366-a22a-b11d7d76c9d1",
+      "query": "REPLICATE [CDATA].[mysql_cdc_repro123] SELECT * FROM [support].[mysql_cdc_repro]",
+      "is_active": true
+    }
+  ]
+}

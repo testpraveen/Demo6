@@ -1,0 +1,10 @@
+{
+  "tasks": [
+    {
+      "id": 928520535216885761,
+      "job_id": "4020f962-e255-426a-9c67-5506b2616d38",
+      "query": "REPLICATE [TestTable] SELECT * FROM [support].[TestTable]",
+      "is_active": true
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "tasks": [
+    {
+      "id": 943732536297787393,
+      "job_id": "e1c89e5a-b54d-4331-9aa8-5a6f8a3f53b2",
+      "query": "REPLICATE [JSONData] SELECT * FROM [JSONData]",
+      "is_active": true
+    }
+  ]
+}

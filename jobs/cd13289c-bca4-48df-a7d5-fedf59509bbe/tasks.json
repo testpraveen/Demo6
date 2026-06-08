@@ -1,0 +1,10 @@
+{
+  "tasks": [
+    {
+      "id": 934859619493351425,
+      "job_id": "cd13289c-bca4-48df-a7d5-fedf59509bbe",
+      "query": "REPLICATE [CUSTOMERS] SELECT * FROM [C##BRAJAN].[CUSTOMERS]",
+      "is_active": true
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "tasks": [
+    {
+      "id": 928911079025807361,
+      "job_id": "af635b3d-2410-4f87-b512-6f1c1869255c",
+      "query": "REPLICATE [support].[ORDERSTEST] SELECT * FROM [APP_USER].[ORDERS]",
+      "is_active": true
+    },
+    {
+      "id": 930011643616825345,
+      "job_id": "af635b3d-2410-4f87-b512-6f1c1869255c",
+      "query": "REPLICATE [CDATA_SYNC_LOGMINING_FLUSH] SELECT * FROM [C##CDATA_CDC].[CDATA_SYNC_LOGMINING_FLUSH]",
+      "is_active": true
+    }
+  ]
+}

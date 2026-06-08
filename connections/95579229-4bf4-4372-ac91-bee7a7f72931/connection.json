@@ -1,0 +1,24 @@
+{
+  "id": "95579229-4bf4-4372-ac91-bee7a7f72931",
+  "display_name": "db2SourceTesting1",
+  "name": "db2sourcetesting1",
+  "connector": {
+    "name": "CData DB2",
+    "version": "25.0.9539.0"
+  },
+  "properties": {
+    "Server": "localhost",
+    "AuthScheme": "USRIDPWD",
+    "Database": "TESTDB",
+    "Password": "SECURE:gBsgN2ibM4ymXSZuGChBWOafDW2evH4jVotqWaTuuKmcJh2f8Zdfacd6Z2yXf5/1/FFSaGFgp6k=",
+    "Port": "50000",
+    "User": "db2inst1"
+  },
+  "labels": [],
+  "settings": {
+    "verbosity": 0,
+    "use_cdata_callback_url": 0,
+    "metadata_refresh_interval": 3600,
+    "use_sync_proxy": 0
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "id": "32b03b8a-2f3d-43f1-8b5b-32245a84a2f2",
+  "display_name": "AzureDataLakeSource",
+  "name": "azuredatalakesource",
+  "connector": {
+    "name": "Azure Data Lake Storage",
+    "version": "latest"
+  },
+  "properties": {
+    "AuthScheme": "AccessKey",
+    "AzureStorageAccount": "storageheirarchical",
+    "AzureAccessKey": "SECURE:lky2uwo97oOO2l3TuQavddBU5cuYNZC0uIjPXPmdwIV5fQvBMzXW1py0lnIE7GdY8D8cIcA+6MjWT1Da8EqUmP41I1aWQaw54ZzIjGedxxNibJvo7GYXqlwhfZLon151pJSXdDKGXPzhqwj9qnluqA55tqaTGkW4ax3k5xM86KNptUFCX1El8w==",
+    "AzureTenant": "94be69e7-edb4-4fda-ab12-95bfc22b232f",
+    "IncludeFiles": "CSV,TXT,TAB",
+    "PageSize": "5000",
+    "ConnectionType": "Azure Data Lake Storage Gen2 SSL",
+    "URI": "abfss://blobcontainerheirarchical/parquetTest",
+    "InsertMode": "SingleFile"
+  },
+  "labels": [],
+  "settings": {
+    "verbosity": 5,
+    "use_cdata_callback_url": 0,
+    "metadata_refresh_interval": 3600,
+    "use_sync_proxy": 0
+  }
+}

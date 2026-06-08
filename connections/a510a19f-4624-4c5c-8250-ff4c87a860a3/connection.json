@@ -1,0 +1,21 @@
+{
+  "id": "a510a19f-4624-4c5c-8250-ff4c87a860a3",
+  "display_name": "APISourceTest",
+  "name": "apisourcetest",
+  "connector": {
+    "name": "CData API",
+    "version": "latest"
+  },
+  "properties": {
+    "AuthScheme": "None",
+    "CustomHeaders": "UserName:K1",
+    "URI": "https://services.odata.org/v4/(S(34wtn2c0hkuk5ekg0pjr513b))/TripPinServiceRW/People"
+  },
+  "labels": [],
+  "settings": {
+    "verbosity": 5,
+    "use_cdata_callback_url": 0,
+    "metadata_refresh_interval": 3600,
+    "use_sync_proxy": 0
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "tasks": [
+    {
+      "id": 946726893233770497,
+      "job_id": "429454a8-261d-4061-8e0f-2914b7e66cd4",
+      "query": "REPLICATE [Info_Columns] SELECT * FROM [Info_Columns]",
+      "is_active": true
+    },
+    {
+      "id": 946730338934198273,
+      "job_id": "429454a8-261d-4061-8e0f-2914b7e66cd4",
+      "query": "REPLICATE [Sheet_ABC] SELECT * FROM [Sheet_ABC]",
+      "is_active": true
+    }
+  ]
+}

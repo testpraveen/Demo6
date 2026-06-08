@@ -1,0 +1,26 @@
+{
+  "id": "e630cb42-8413-418e-8d01-a63d0d8c702a",
+  "display_name": "SAPSourceTest",
+  "name": "sapsourcetest",
+  "connector": {
+    "name": "CData SAPERP",
+    "version": "latest"
+  },
+  "properties": {
+    "Password": "SECURE:texAtUzAdT6nruFUFYnVWl1Op/+W96r5YUANMWGevGuVykVM64YhkO6y9t5Z5akYYxyWz19O2Xjz",
+    "SystemNumber": "0",
+    "ConnectionScheme": "ApplicationServer",
+    "Host": "linux-a1.support.clouddataos.com",
+    "Client": "001",
+    "SAPEdition": "OnPremise",
+    "ConnectionType": "Classic",
+    "User": "DEVELOPER"
+  },
+  "labels": [],
+  "settings": {
+    "verbosity": 0,
+    "use_cdata_callback_url": 0,
+    "metadata_refresh_interval": 3600,
+    "use_sync_proxy": 0
+  }
+}

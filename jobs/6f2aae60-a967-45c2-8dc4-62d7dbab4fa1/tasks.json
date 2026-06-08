@@ -1,0 +1,28 @@
+{
+  "tasks": [
+    {
+      "id": 927440478423617537,
+      "job_id": "6f2aae60-a967-45c2-8dc4-62d7dbab4fa1",
+      "query": "REPLICATE [Boards] SELECT * FROM [Information].[Boards]",
+      "is_active": true
+    },
+    {
+      "id": 937236586603614209,
+      "job_id": "6f2aae60-a967-45c2-8dc4-62d7dbab4fa1",
+      "query": "REPLICATE [AuditLogs] SELECT * FROM [AuditLog].[AuditLogs]",
+      "is_active": true
+    },
+    {
+      "id": 937236586603614211,
+      "job_id": "6f2aae60-a967-45c2-8dc4-62d7dbab4fa1",
+      "query": "REPLICATE [Bug Tracker] SELECT * FROM [Endrit_Test].[Bug Tracker]",
+      "is_active": true
+    },
+    {
+      "id": 937236586603614213,
+      "job_id": "6f2aae60-a967-45c2-8dc4-62d7dbab4fa1",
+      "query": "REPLICATE [Client Project - ABC Corp] SELECT * FROM [Endrit_Test].[Client Project - ABC Corp]",
+      "is_active": true
+    }
+  ]
+}

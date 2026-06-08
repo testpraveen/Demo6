@@ -1,0 +1,24 @@
+{
+  "id": "7d273b6b-2cd6-42ad-a4ae-d279b0fe06b1",
+  "display_name": "MicrosoftDynamics365Source",
+  "name": "microsoftdynamics365source",
+  "connector": {
+    "name": "CData Dynamics365",
+    "version": "latest"
+  },
+  "properties": {
+    "AuthScheme": "AzureServicePrincipal",
+    "OAuthClientId": "8b2a4a7c-4c02-48c6-8346-c08f048e67fa",
+    "AzureTenant": "bf6e4267-a9fb-419b-ae7b-7586fab0ff66",
+    "OAuthClientSecret": "SECURE:gRKIi4lNZGNNvDULohMnEv1tmSMG5dVtDbsN2Cz+oLhDiVA/mxu75BzHAILOh9/97ZaKdBhNYftcEuXY4IGgZN/SBXa98TzsqQI5HjJdQKll7IvityA+zQ==",
+    "Edition": "Sales",
+    "OrganizationURL": "https://cdata-sandbox.crm.dynamics.com"
+  },
+  "labels": [],
+  "settings": {
+    "verbosity": 5,
+    "use_cdata_callback_url": 0,
+    "metadata_refresh_interval": 3600,
+    "use_sync_proxy": 0
+  }
+}

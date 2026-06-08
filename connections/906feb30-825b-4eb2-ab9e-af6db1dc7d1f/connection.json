@@ -1,0 +1,22 @@
+{
+  "id": "906feb30-825b-4eb2-ab9e-af6db1dc7d1f",
+  "display_name": "QuickBooksSource",
+  "name": "quickbookssource",
+  "connector": {
+    "name": "CData QuickBooks",
+    "version": "latest"
+  },
+  "properties": {
+    "Password": "SECURE:a+tiC9Wwiq+q0yBvr8ltJjwStgBS/MDoP0fIUjSPfKy2MTH1nRlR6weLeYdeYMXu+ijzFZ6wxZjzxmphgWAKU29lWzov",
+    "SSLServerCert": "SECURE:+vOSTvi6aew/gtXmnF1aJXMgSc2Y/VBBZ0qNPWBcHw6b1ZwrIRI5lpOy+nHd4PWwPA==",
+    "User": "syncsupport@cdata.com",
+    "URL": "https://developer.intuit.com/app/developer/sandbox"
+  },
+  "labels": [],
+  "settings": {
+    "verbosity": 0,
+    "use_cdata_callback_url": 0,
+    "metadata_refresh_interval": 3600,
+    "use_sync_proxy": 0
+  }
+}

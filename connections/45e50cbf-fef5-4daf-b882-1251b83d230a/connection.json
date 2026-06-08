@@ -1,0 +1,21 @@
+{
+  "id": "45e50cbf-fef5-4daf-b882-1251b83d230a",
+  "display_name": "SugarCrmSource",
+  "name": "sugarcrmsource",
+  "connector": {
+    "name": "CData SugarCRM",
+    "version": "latest"
+  },
+  "properties": {
+    "Password": "SECURE:qB55RLGy2CGrht+/ArN2K3XugWrOuwiSACR/EoaA7gW2gS2+M7g3SIWulwyiWWexJZ0e6ckb22E4JOtHedUs3qhv",
+    "User": "admin",
+    "URL": "https://sg-cdatademo2025-2.demo.sugarcrm.com"
+  },
+  "labels": [],
+  "settings": {
+    "verbosity": 0,
+    "use_cdata_callback_url": 0,
+    "metadata_refresh_interval": 3600,
+    "use_sync_proxy": 0
+  }
+}

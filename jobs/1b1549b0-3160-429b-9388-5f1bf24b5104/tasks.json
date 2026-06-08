@@ -1,0 +1,10 @@
+{
+  "tasks": [
+    {
+      "id": 936910403324219393,
+      "job_id": "1b1549b0-3160-429b-9388-5f1bf24b5104",
+      "query": "REPLICATE [ACIViewMapper] SELECT * FROM [ACIViewMapper]",
+      "is_active": true
+    }
+  ]
+}

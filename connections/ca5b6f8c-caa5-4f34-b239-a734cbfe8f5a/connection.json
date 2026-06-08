@@ -1,0 +1,20 @@
+{
+  "id": "ca5b6f8c-caa5-4f34-b239-a734cbfe8f5a",
+  "display_name": "asd",
+  "name": "asd",
+  "connector": {
+    "name": "CData Oracle",
+    "version": "latest"
+  },
+  "properties": {
+    "NativeFolder": "C:\\ProgramData\\CData\\sync\\libs\\oracleoci\\9210\\x64",
+    "ConnectionType": "Server"
+  },
+  "labels": [],
+  "settings": {
+    "verbosity": 0,
+    "use_cdata_callback_url": 0,
+    "metadata_refresh_interval": 3600,
+    "use_sync_proxy": 0
+  }
+}

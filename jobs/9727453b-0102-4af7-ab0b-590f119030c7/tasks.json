@@ -1,0 +1,40 @@
+{
+  "tasks": [
+    {
+      "id": 916983484671725569,
+      "job_id": "9727453b-0102-4af7-ab0b-590f119030c7",
+      "query": "REPLICATE [Accounts] SELECT * FROM [Accounts]",
+      "is_active": true
+    },
+    {
+      "id": 916983911857393665,
+      "job_id": "9727453b-0102-4af7-ab0b-590f119030c7",
+      "query": "REPLICATE [BankTransactions] SELECT * FROM [BankTransactions]",
+      "is_active": false
+    },
+    {
+      "id": 916986751724163073,
+      "job_id": "9727453b-0102-4af7-ab0b-590f119030c7",
+      "query": "REPLICATE [Files] SELECT * FROM [Files]",
+      "is_active": false
+    },
+    {
+      "id": 916987015596216321,
+      "job_id": "9727453b-0102-4af7-ab0b-590f119030c7",
+      "query": "REPLICATE [Associations] SELECT * FROM [Associations]",
+      "is_active": false
+    },
+    {
+      "id": 916987015596216323,
+      "job_id": "9727453b-0102-4af7-ab0b-590f119030c7",
+      "query": "REPLICATE [Folders] SELECT * FROM [Folders]",
+      "is_active": false
+    },
+    {
+      "id": 916987015596216325,
+      "job_id": "9727453b-0102-4af7-ab0b-590f119030c7",
+      "query": "REPLICATE [Tenants] SELECT * FROM [Tenants]",
+      "is_active": false
+    }
+  ]
+}

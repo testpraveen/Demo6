@@ -1,0 +1,10 @@
+{
+  "tasks": [
+    {
+      "id": 924188749905137665,
+      "job_id": "96fc129d-2e9c-4131-b535-073d57556840",
+      "query": "REPLICATE [C##BRAJAN].[SYNC_CDC_PK_TEST2] SELECT * FROM [dbo].[Sync_CDC_PK_Test2]",
+      "is_active": true
+    }
+  ]
+}

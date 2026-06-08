@@ -1,0 +1,16 @@
+{
+  "tasks": [
+    {
+      "id": 959749591505440769,
+      "job_id": "84541cf2-1dc6-4015-9407-8efe2bd534f8",
+      "query": "REPLICATE [Account] SELECT * FROM [C##BRAJAN].[Account]",
+      "is_active": true
+    },
+    {
+      "id": 959755489531531265,
+      "job_id": "84541cf2-1dc6-4015-9407-8efe2bd534f8",
+      "query": "REPLICATE [TESTTABLE] SELECT * FROM [C##BRAJAN].[TESTTABLE]",
+      "is_active": true
+    }
+  ]
+}

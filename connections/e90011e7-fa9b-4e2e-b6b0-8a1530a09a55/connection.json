@@ -1,0 +1,21 @@
+{
+  "id": "e90011e7-fa9b-4e2e-b6b0-8a1530a09a55",
+  "display_name": "onelakemirrordestination",
+  "name": "onelakemirrordestination",
+  "connector": {
+    "name": "CData Microsoft OneLake Mirroring",
+    "version": "25.0.9551.0"
+  },
+  "properties": {
+    "AuthScheme": "AzureAD",
+    "ConnectionType": "OneLake",
+    "URI": "onelake://f9079606-a105-42cd-a500-8e1801c2c473/4aca918d-19a9-4534-8f53-981fce455ad1/Files/LandingZone"
+  },
+  "labels": [],
+  "settings": {
+    "verbosity": 0,
+    "use_cdata_callback_url": 0,
+    "metadata_refresh_interval": 3600,
+    "use_sync_proxy": 0
+  }
+}

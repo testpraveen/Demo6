@@ -1,0 +1,20 @@
+{
+  "id": "64a92f41-cf93-4905-81e5-c67803c57bce",
+  "display_name": "ZohoBooksSource",
+  "name": "zohobookssource",
+  "connector": {
+    "name": "CData ZohoBooks",
+    "version": "latest"
+  },
+  "properties": {
+    "AccountsServer": "https://accounts.zoho.com",
+    "Region": "us"
+  },
+  "labels": [],
+  "settings": {
+    "verbosity": 0,
+    "use_cdata_callback_url": 0,
+    "metadata_refresh_interval": 3600,
+    "use_sync_proxy": 0
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "tasks": [
+    {
+      "id": 970181066751086593,
+      "job_id": "d65a526a-e0d9-4a3c-8383-148d19457f80",
+      "query": "REPLICATE [test_pk_cdc] ([id] bigint, PRIMARY KEY([id])) SELECT * FROM [support].[test_pk_cdc]",
+      "is_active": true
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "id": "e7648645-05c1-4984-99a0-3979395993c9",
+  "display_name": "DataverseSourceTest",
+  "name": "dataversesourcetest",
+  "connector": {
+    "name": "CData CDS",
+    "version": "latest"
+  },
+  "properties": {
+    "Schema": "System",
+    "AuthScheme": "AzureServicePrincipal",
+    "OAuthClientId": "c15fb782-e088-4b90-ac31-5ad6afc87697",
+    "AzureTenant": "9a0d4126-63c3-4bd2-9e63-19d26e36f09e",
+    "OAuthClientSecret": "SECURE:cCcpkRRj7alhxLKCbD7bZX5s0t/p5pLULZCEvJmpLv498u8f5MInS9zDsoHlg4HhM89ka1YqQJjRy8I/26Jp2BxjSoabx2LKdta4JX0nMBzw5vHayIsnhw==",
+    "OrganizationURL": "https://org9c83d1f1.crm.dynamics.com"
+  },
+  "labels": [],
+  "settings": {
+    "verbosity": 5,
+    "use_cdata_callback_url": 0,
+    "metadata_refresh_interval": 3600,
+    "use_sync_proxy": 0
+  }
+}

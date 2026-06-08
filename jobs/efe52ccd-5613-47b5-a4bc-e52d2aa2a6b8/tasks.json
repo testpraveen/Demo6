@@ -1,0 +1,16 @@
+{
+  "tasks": [
+    {
+      "id": 958980308663930881,
+      "job_id": "efe52ccd-5613-47b5-a4bc-e52d2aa2a6b8",
+      "query": "REPLICATE [TimeAccountDetail] SELECT * FROM [TimeAccountDetail]",
+      "is_active": true
+    },
+    {
+      "id": 958981620700942337,
+      "job_id": "efe52ccd-5613-47b5-a4bc-e52d2aa2a6b8",
+      "query": "REPLICATE [EmployeeTime] SELECT * FROM [EmployeeTime]",
+      "is_active": true
+    }
+  ]
+}

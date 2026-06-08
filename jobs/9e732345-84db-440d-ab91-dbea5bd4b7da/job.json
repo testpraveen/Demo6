@@ -1,0 +1,48 @@
+{
+  "id": "9e732345-84db-440d-ab91-dbea5bd4b7da",
+  "name": "MysqlToDB2",
+  "pipeline_id": "",
+  "type": 7,
+  "source_connector": "mysqlsource",
+  "destination_connector": "db2destination",
+  "schedule": {
+    "enabled": false,
+    "cron": ""
+  },
+  "alerts": {
+    "send_email": false,
+    "email_to": "",
+    "email_error_only": false
+  },
+  "properties": {
+    "enable_parallel_processing": false,
+    "worker_pool": 2,
+    "verbosity": 5,
+    "destination_schema": "DB2INST1",
+    "automatic_job_retry": true
+  },
+  "replicate_options": {
+    "replicate_start_date": null,
+    "replicate_interval": 180,
+    "replicate_interval_unit": "days",
+    "snapshot_size": "1000000",
+    "skip_snapshot": "false",
+    "alter_schema": true,
+    "drop_table": true,
+    "truncate_table_data": false,
+    "table_name_prefix": "",
+    "table_name_suffix": "",
+    "continue_on_error": false,
+    "deletion_behavior": "SoftDelete",
+    "insert_mode": "FilePerBatch",
+    "auto_truncate_Strings": true,
+    "use_gmt_datetime": false,
+    "command_timeout": 1000,
+    "additional_options": "UseTempTable=True"
+  },
+  "events": {
+    "pre_job": "928517310484975616",
+    "post_job": "928517310497558528"
+  },
+  "labels": []
+}

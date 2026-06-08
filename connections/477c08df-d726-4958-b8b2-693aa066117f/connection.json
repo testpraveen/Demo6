@@ -1,0 +1,19 @@
+{
+  "id": "477c08df-d726-4958-b8b2-693aa066117f",
+  "display_name": "YoutubeAnalyticsTest",
+  "name": "youtubeanalyticstest",
+  "connector": {
+    "name": "CData YouTubeAnalytics",
+    "version": "latest"
+  },
+  "properties": {
+    "AuthScheme": "OAuth"
+  },
+  "labels": [],
+  "settings": {
+    "verbosity": 0,
+    "use_cdata_callback_url": 0,
+    "metadata_refresh_interval": 3600,
+    "use_sync_proxy": 0
+  }
+}

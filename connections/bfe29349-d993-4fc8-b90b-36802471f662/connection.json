@@ -1,0 +1,21 @@
+{
+  "id": "bfe29349-d993-4fc8-b90b-36802471f662",
+  "display_name": "db2foridesti",
+  "name": "db2foridesti",
+  "connector": {
+    "name": "DB2 AS400",
+    "version": "latest"
+  },
+  "properties": {
+    "Server": "localhost",
+    "Port": "446",
+    "prompt": "false"
+  },
+  "labels": [],
+  "settings": {
+    "verbosity": 0,
+    "use_cdata_callback_url": 0,
+    "metadata_refresh_interval": 3600,
+    "use_sync_proxy": 0
+  }
+}

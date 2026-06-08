@@ -1,0 +1,21 @@
+{
+  "id": "eb3026f4-207b-4fbe-bcdf-a199532cbb71",
+  "display_name": "OracleHCMSource",
+  "name": "oraclehcmsource",
+  "connector": {
+    "name": "CData OracleHCM",
+    "version": "latest"
+  },
+  "properties": {
+    "Password": "SECURE:rWh1MjIbYKqHILaKJzjseWpV+GRD5rni+vGHAL4OEotm/h8jLLnrkmfSYTG4/7Pa2be7OHR34x8=",
+    "User": "natalie.salesrep",
+    "URL": "https://eqjz.ds-fa.oraclepdemos.com"
+  },
+  "labels": [],
+  "settings": {
+    "verbosity": 0,
+    "use_cdata_callback_url": 0,
+    "metadata_refresh_interval": 3600,
+    "use_sync_proxy": 0
+  }
+}

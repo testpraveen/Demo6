@@ -1,0 +1,20 @@
+{
+  "id": "58e0e2b7-bf54-456a-be1f-9a25c9b1dd5f",
+  "display_name": "Zohocreatortesting",
+  "name": "zohocreatortesting",
+  "connector": {
+    "name": "CData ZohoCreator",
+    "version": "latest"
+  },
+  "properties": {
+    "Other": "region=Europe;",
+    "region": "Europe"
+  },
+  "labels": [],
+  "settings": {
+    "verbosity": 0,
+    "use_cdata_callback_url": 0,
+    "metadata_refresh_interval": 3600,
+    "use_sync_proxy": 0
+  }
+}

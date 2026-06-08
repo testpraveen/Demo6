@@ -1,0 +1,22 @@
+{
+  "tasks": [
+    {
+      "id": 926356306636443649,
+      "job_id": "aa87f355-fece-47db-acb6-cdfb410bbc20",
+      "query": "REPLICATE [Accounts] SELECT * FROM [Accounts]",
+      "is_active": true
+    },
+    {
+      "id": 926357579620290561,
+      "job_id": "aa87f355-fece-47db-acb6-cdfb410bbc20",
+      "query": "REPLICATE [Build] SELECT [ID], [CategoryDisplayID], [CategoryName], [CategoryUID], [CategoryURI], [CompanyFileId], [Date], [Memo], [RowVersion], [URI], [InventoryJournalNumber], [Lines] FROM [Build]",
+      "is_active": true
+    },
+    {
+      "id": 926358713248387073,
+      "job_id": "aa87f355-fece-47db-acb6-cdfb410bbc20",
+      "query": "REPLICATE [ContactCustomers] SELECT [ID], [LastModified], [CompanyName], [CurrentBalance], [CustomField1Label], [CustomField1Value], [CustomField2Label], [CustomField2Value], [CustomField3Label], [CustomField3Value], [CustomList1Label], [CustomList1Value], [CustomList2Label], [CustomList2Value], [CustomList3Label], [CustomList3Value], [DisplayID], [FirstName], [ForeignCurrencyCode], [ForeignCurrencyId], [ForeignCurrencyName], [ForeignCurrencyURI], [Identifiers], [IsActive], [IsIndividual], [LastName], [Notes], [PaymentBSBNumber], [PaymentBankAccountName], [PaymentBankAccountNumber], [PaymentCardNumber], [PaymentMethod], [PaymentNameOnCard], [PaymentNotes], [PhotoURI], [RowVersion], [SellingABN], [SellingABNBranch], [SellingCreditAvailable], [SellingCreditLimit], [SellingCreditOnHold], [SellingCreditPastDue], [SellingFreightTaxCodeCode], [SellingFreightTaxCodeID], [SellingFreightTaxCodeURI], [SellingHourlyBillingRate], [SellingIncomeAccountDisplayId], [SellingIncomeAccountId], [SellingIncomeAccountName], [SellingIncomeAccountURI], [SellingInvoiceDelivery], [SellingItemPriceLevel], [SellingMemo], [SellingPrintedForm], [SellingReceiptMemo], [SellingSaleComment], [SellingSaleLayout], [SellingSalesPersonDisplayId], [SellingSalesPersonId], [SellingSalesPersonName], [SellingSalesPersonURI], [SellingShippingMethod], [SellingTaxCodeCode], [SellingTaxCodeID], [SellingTaxCodeURI], [SellingTaxIdNumber], [SellingTermsBalanceDueDate], [SellingTermsDiscountDate], [SellingTermsDiscountForEarlyPayment], [SellingTermsMonthlyChargeForLatePayment], [SellingTermsPaymentIsDue], [SellingTermsVolumeDiscount], [SellingUseCustomerTaxCode], [URI] FROM [ContactCustomers]",
+      "is_active": true
+    }
+  ]
+}

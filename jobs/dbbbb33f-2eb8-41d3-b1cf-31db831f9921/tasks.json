@@ -1,0 +1,16 @@
+{
+  "tasks": [
+    {
+      "id": 944487072771739649,
+      "job_id": "dbbbb33f-2eb8-41d3-b1cf-31db831f9921",
+      "query": "REPLICATE [Accounts] SELECT * FROM [Accounts]",
+      "is_active": true
+    },
+    {
+      "id": 944487306822291457,
+      "job_id": "dbbbb33f-2eb8-41d3-b1cf-31db831f9921",
+      "query": "REPLICATE [SaleInvoices] SELECT * FROM [SaleInvoices]",
+      "is_active": true
+    }
+  ]
+}

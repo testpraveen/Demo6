@@ -1,0 +1,26 @@
+{
+  "id": "31f038a5-3e9b-4a2c-a722-381756c28b99",
+  "display_name": "DB2CdataTestingSource",
+  "name": "db2cdatatestingsource",
+  "connector": {
+    "name": "CData DB2",
+    "version": "25.0.9539.0"
+  },
+  "properties": {
+    "Server": "DEV750.RZKH.DE",
+    "AuthScheme": "USRIDPWD",
+    "BrowsableSchemas": "TESTLIB1",
+    "Database": "DEV750",
+    "Password": "SECURE:A63YppWpPoBxmJeZwbRqgcX7yYq49Z6aIHGZXqqG4ltoUbQGoOyXkMxvacMLnJ9ZtUXUHwnDrz05",
+    "Tables": "WIDETEST",
+    "Port": "446",
+    "User": "DAVY"
+  },
+  "labels": [],
+  "settings": {
+    "verbosity": 0,
+    "use_cdata_callback_url": 0,
+    "metadata_refresh_interval": 3600,
+    "use_sync_proxy": 0
+  }
+}

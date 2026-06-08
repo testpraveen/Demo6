@@ -1,0 +1,24 @@
+{
+  "id": "4ddc00b5-40a8-4616-8537-6edaf4c62c6c",
+  "display_name": "MysqlSource1",
+  "name": "mysqlsource1",
+  "connector": {
+    "name": "CData MySQL",
+    "version": "latest"
+  },
+  "properties": {
+    "Server": "10.120.6.123",
+    "AuthScheme": "Password",
+    "Password": "SECURE:qavu9CiIxZTyndMKnlCKMucMbnyU2zLWKuDa3EzBp0TCrxt2kVHr10bTZOfnxYy7fXhCuuWBRh8=",
+    "Database": "support",
+    "Port": "3307",
+    "User": "cdcuser"
+  },
+  "labels": [],
+  "settings": {
+    "verbosity": 0,
+    "use_cdata_callback_url": 0,
+    "metadata_refresh_interval": 3600,
+    "use_sync_proxy": 0
+  }
+}

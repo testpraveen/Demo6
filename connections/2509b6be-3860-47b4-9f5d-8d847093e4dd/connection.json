@@ -1,0 +1,29 @@
+{
+  "id": "2509b6be-3860-47b4-9f5d-8d847093e4dd",
+  "display_name": "AmazonS3SourceTest",
+  "name": "amazons3sourcetest",
+  "connector": {
+    "name": "Amazon S3",
+    "version": "latest"
+  },
+  "properties": {
+    "AuthScheme": "AwsRootKeys",
+    "Other": "Buckets=cdatainternal-donotdelete2;",
+    "Buckets": "cdatainternal-donotdelete2",
+    "AWSAccessKey": "SECURE:yswMV5rnEI2zVysj3AJq92V8NVE4vBf3g/TF/Y6Wfjv+QWHOXLBUdqsfmtA/YZYfTEs/pjzcumnFjLE5dI6QYCM6OCU=",
+    "SSLServerCert": "SECURE:xT982esR4qwJ4Ja3i8HvESPxIHb3FHuJ2ZyP7yCs//2N3lOJ4+w87tAfFi/63YSfCA==",
+    "IncludeFiles": "parquet",
+    "Pagesize": "",
+    "AWSSecretKey": "SECURE:S8eHoXsLip0pDLEtxjAlpgettNTf7JSaeNHHq6kIPuQbdeZuzSLLwVcL/VRDpYoXfwWLfyI8Bq+pNq2Ly2IQCtROAd+PRPUNiintMlKM9zM+AFK2INqnpQ==",
+    "ConnectionType": "Amazon S3",
+    "URI": "s3://cdatainternal-donotdelete2/Account/",
+    "AWSRegion": "NORTHERNVIRGINIA"
+  },
+  "labels": [],
+  "settings": {
+    "verbosity": 0,
+    "use_cdata_callback_url": 0,
+    "metadata_refresh_interval": 3600,
+    "use_sync_proxy": 0
+  }
+}

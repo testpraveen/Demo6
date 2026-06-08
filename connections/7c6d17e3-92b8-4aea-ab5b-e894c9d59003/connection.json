@@ -1,0 +1,21 @@
+{
+  "id": "7c6d17e3-92b8-4aea-ab5b-e894c9d59003",
+  "display_name": "MYOBSourceTest",
+  "name": "myobsourcetest",
+  "connector": {
+    "name": "CData MYOB",
+    "version": "25.0.9543.0"
+  },
+  "properties": {
+    "AuthScheme": "OAuth",
+    "Instance": "Cloud",
+    "User": "Administrator"
+  },
+  "labels": [],
+  "settings": {
+    "verbosity": 0,
+    "use_cdata_callback_url": 0,
+    "metadata_refresh_interval": 3600,
+    "use_sync_proxy": 0
+  }
+}

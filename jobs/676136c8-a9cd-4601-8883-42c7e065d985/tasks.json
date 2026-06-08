@@ -1,0 +1,16 @@
+{
+  "tasks": [
+    {
+      "id": 945024063728914433,
+      "job_id": "676136c8-a9cd-4601-8883-42c7e065d985",
+      "query": "REPLICATE [ATTRIBUTES] SELECT * FROM [SYSCAT].[ATTRIBUTES]",
+      "is_active": true
+    },
+    {
+      "id": 945024585206730753,
+      "job_id": "676136c8-a9cd-4601-8883-42c7e065d985",
+      "query": "REPLICATE [EMPLOYEE] SELECT * FROM [DB2INST1].[EMPLOYEE]",
+      "is_active": true
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "id": "162f0242-6483-4d81-94b4-7ac2719e2cd9",
+  "display_name": "OracleNativeSource",
+  "name": "oraclenativesource",
+  "connector": {
+    "name": "Oracle",
+    "version": "latest"
+  },
+  "properties": {
+    "Server": "localhost",
+    "Password": "SECURE:DCaI3GM9cqiDhE1p5lFYXqoFx9AbAk7hnPExLCdCpYu4Hwi+2VevQyIf3kCw0VX5411zN+IQw9hp",
+    "Port": "1521",
+    "Service": "ORACLEDB",
+    "ConnectionType": "Service Name",
+    "User": "C##BRAJAN"
+  },
+  "labels": [],
+  "settings": {
+    "verbosity": 0,
+    "use_cdata_callback_url": 0,
+    "metadata_refresh_interval": 3600,
+    "use_sync_proxy": 0
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "id": "40a70dc1-3af3-420e-84f1-8087c401a9e3",
+  "display_name": "ADPSourceTest",
+  "name": "adpsourcetest",
+  "connector": {
+    "name": "CData ADP",
+    "version": "latest"
+  },
+  "properties": {
+    "ProxyPort": "",
+    "Other": "useinternalsecurityapi=true;",
+    "OAuthClientId": "ea7b378c-fc75-4557-9797-9c168a5149d0",
+    "SSLServerCert": "SECURE:mkjie/RMRRx320uFmSwiUn0/zLbybxXavtonnq0rJkrtETSjfmbDsHeMbJm6i724qA==",
+    "useinternalsecurityapi": "true",
+    "OAuthClientSecret": "SECURE:t+lf/npBtmtZOOWNWSwYMgbS/ZMRhrNtBAYyxoKJLF7sYCMkOSZyWijfXV3HPIcR2T1UthfcK9gPKVnz1Q3l1iaBRXd9fScmKH59PFlnKi6+cgqU",
+    "SSLClientCert": "SECURE:GGnF3g0J2BfFPUViN90HPb7jXuUTKBL0yWgS/XLK2fOwIn7HJehdGoMyk6gezTXloLtU5IuJOFp/IBNyNo/FG4FUCpBU4HBsvC06k1sT3g==",
+    "UseUAT": "False",
+    "TestConnectionEndpoint": "workers"
+  },
+  "labels": [],
+  "settings": {
+    "verbosity": 0,
+    "use_cdata_callback_url": 0,
+    "metadata_refresh_interval": 3600,
+    "use_sync_proxy": 0
+  }
+}

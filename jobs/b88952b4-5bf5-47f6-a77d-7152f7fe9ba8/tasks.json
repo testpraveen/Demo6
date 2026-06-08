@@ -1,0 +1,22 @@
+{
+  "tasks": [
+    {
+      "id": 931391634090889217,
+      "job_id": "b88952b4-5bf5-47f6-a77d-7152f7fe9ba8",
+      "query": "REPLICATE [Acctlabeltaxgroup] SELECT * FROM [dbo].[Acctlabeltaxgroup]",
+      "is_active": true
+    },
+    {
+      "id": 931391759622213633,
+      "job_id": "b88952b4-5bf5-47f6-a77d-7152f7fe9ba8",
+      "query": "REPLICATE [Sync_CDC_PK_Test2] SELECT * FROM [dbo].[Sync_CDC_PK_Test2]",
+      "is_active": true
+    },
+    {
+      "id": 931421014510931969,
+      "job_id": "b88952b4-5bf5-47f6-a77d-7152f7fe9ba8",
+      "query": "REPLICATE [dbo_Sync_CDC_PK_Test2_CT] SELECT * FROM [cdc].[dbo_Sync_CDC_PK_Test2_CT]",
+      "is_active": true
+    }
+  ]
+}

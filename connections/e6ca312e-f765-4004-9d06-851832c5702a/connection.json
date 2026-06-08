@@ -1,0 +1,21 @@
+{
+  "id": "e6ca312e-f765-4004-9d06-851832c5702a",
+  "display_name": "ReckonSource",
+  "name": "reckonsource",
+  "connector": {
+    "name": "CData Reckon",
+    "version": "latest"
+  },
+  "properties": {
+    "Password": "SECURE:52h4fR5d5/8yvZgmKEC4eKehclg+VRJhe5rBZ4zPGQYsqTnnzsxG5ZVb10NT2IWJpAEp1A==",
+    "User": "test",
+    "URL": "http://windows-a5.support.clouddataos.com:8199"
+  },
+  "labels": [],
+  "settings": {
+    "verbosity": 0,
+    "use_cdata_callback_url": 0,
+    "metadata_refresh_interval": 3600,
+    "use_sync_proxy": 0
+  }
+}

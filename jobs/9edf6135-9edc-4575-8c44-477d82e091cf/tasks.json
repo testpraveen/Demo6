@@ -1,0 +1,28 @@
+{
+  "tasks": [
+    {
+      "id": 936676812455546881,
+      "job_id": "9edf6135-9edc-4575-8c44-477d82e091cf",
+      "query": "REPLICATE [Account] SELECT * FROM [Account]",
+      "is_active": true
+    },
+    {
+      "id": 936833449849917441,
+      "job_id": "9edf6135-9edc-4575-8c44-477d82e091cf",
+      "query": "REPLICATE [ActivityParty] SELECT * FROM [ActivityParty]",
+      "is_active": true
+    },
+    {
+      "id": 937234661292249089,
+      "job_id": "9edf6135-9edc-4575-8c44-477d82e091cf",
+      "query": "REPLICATE [ActivityPointer] SELECT * FROM [ActivityPointer]",
+      "is_active": true
+    },
+    {
+      "id": 937234661292249091,
+      "job_id": "9edf6135-9edc-4575-8c44-477d82e091cf",
+      "query": "REPLICATE [AdvancedSimilarityRule] SELECT * FROM [AdvancedSimilarityRule]",
+      "is_active": true
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "id": "d74b1508-f8ac-4ccc-b9b4-d243f6ec7afb",
+  "display_name": "MondaySource",
+  "name": "mondaysource",
+  "connector": {
+    "name": "CData Monday",
+    "version": "latest"
+  },
+  "properties": {
+    "APIToken": "SECURE:3go1eLtneBRd57hEo2vmBR+mjPUZ7iCjy45zmi/6Lj5/8rBKuycYTYcekfhTsr6S6554kHVLdwghUFMgPoeuxJpx9kx3ZMlug4dyH0E5OnDUAUkGV+pau/w9hmPj7AdI/KzOpmQjYiX980iWrsnNMzjvWLQ+xV7ljLMEIFVUn4BRDjlqPp6aoLyOaFH8tvRGenUd1XMMDOGgMLST7dZTeS5NJyNbkMI/x4oW0axUgJ18kmYOw8Wfpq2Ev4nBhnyXN9ALnbs6Hr4A8pazK7mLwb1NpHA3AyamsKYofjYnywfa3JhSElgWQ4jX5Cmht/89pwct04lMjWrottiASpScp9PbeZyj2OvD/jvz+5C2z9LkgQw=",
+    "AuthScheme": "Token",
+    "OAuthClientId": "f0b13662532349251228ced0b5782667",
+    "Domain": "https://cdata-bunch.monday.com",
+    "OAuthClientSecret": "SECURE:9i0GigR169g0LHwnkc9QYZBCgMZ4ks4GIKiQCV1OsKq6cVbJydKEbCq2IYZVeIoF21S7hkrwiAExp8sCcdol4vSCkNWBNU2NqPcSrB2qMcc="
+  },
+  "labels": [],
+  "settings": {
+    "verbosity": 0,
+    "use_cdata_callback_url": 0,
+    "metadata_refresh_interval": 3600,
+    "use_sync_proxy": 0
+  }
+}

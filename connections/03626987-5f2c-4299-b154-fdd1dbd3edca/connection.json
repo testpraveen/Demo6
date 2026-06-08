@@ -1,0 +1,24 @@
+{
+  "id": "03626987-5f2c-4299-b154-fdd1dbd3edca",
+  "display_name": "ServerDestinationTest",
+  "name": "serverdestinationtest",
+  "connector": {
+    "name": "SQL Server",
+    "version": "latest"
+  },
+  "properties": {
+    "Server": "localhost",
+    "Database": "Sync_Test_C",
+    "Password": "SECURE:tohFulqM94fGwnAS3oHe6mKJcxANQcSJ7opsD3+Vd8nmGnJ6pDrpT/0vhSfq90Ow+1qPCifkeg==",
+    "Port": "1433",
+    "TrustServerCertificate": "True",
+    "User": "kishore"
+  },
+  "labels": [],
+  "settings": {
+    "verbosity": 0,
+    "use_cdata_callback_url": 0,
+    "metadata_refresh_interval": 3600,
+    "use_sync_proxy": 0
+  }
+}

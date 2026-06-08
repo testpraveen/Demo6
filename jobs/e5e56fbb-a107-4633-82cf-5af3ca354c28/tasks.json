@@ -1,0 +1,34 @@
+{
+  "tasks": [
+    {
+      "id": 944477341151793153,
+      "job_id": "e5e56fbb-a107-4633-82cf-5af3ca354c28",
+      "query": "REPLICATE [AccountBudgets] SELECT * FROM [AccountBudgets]",
+      "is_active": true
+    },
+    {
+      "id": 944477655753953281,
+      "job_id": "e5e56fbb-a107-4633-82cf-5af3ca354c28",
+      "query": "REPLICATE [Accounts] SELECT * FROM [Accounts]",
+      "is_active": true
+    },
+    {
+      "id": 944477655753953283,
+      "job_id": "e5e56fbb-a107-4633-82cf-5af3ca354c28",
+      "query": "REPLICATE [ContactEmployees] SELECT * FROM [ContactEmployees]",
+      "is_active": true
+    },
+    {
+      "id": 944477800428081153,
+      "job_id": "e5e56fbb-a107-4633-82cf-5af3ca354c28",
+      "query": "REPLICATE [Activities] SELECT * FROM [Activities]",
+      "is_active": true
+    },
+    {
+      "id": 944477800428081155,
+      "job_id": "e5e56fbb-a107-4633-82cf-5af3ca354c28",
+      "query": "REPLICATE [ContactCustomers] SELECT * FROM [ContactCustomers]",
+      "is_active": true
+    }
+  ]
+}

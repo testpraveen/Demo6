@@ -1,0 +1,50 @@
+{
+  "id": "88d153fc-c36c-4bfc-a3e5-d3a393c5e4a2",
+  "name": "ServerBackupTest",
+  "pipeline_id": "",
+  "type": 1,
+  "source_connector": "serversource",
+  "destination_connector": "serverdestinationtest",
+  "schedule": {
+    "enabled": false,
+    "cron": "05 10 * * ?"
+  },
+  "alerts": {
+    "send_email": false,
+    "email_to": "kishore20081996@gmail.com",
+    "email_error_only": true
+  },
+  "properties": {
+    "enable_parallel_processing": true,
+    "worker_pool": 2,
+    "verbosity": 2,
+    "destination_schema": "dbo",
+    "automatic_job_retry": false
+  },
+  "replicate_options": {
+    "replicate_start_date": null,
+    "replicate_interval": 180,
+    "replicate_interval_unit": "days",
+    "snapshot_size": "1000000",
+    "skip_snapshot": "false",
+    "alter_schema": true,
+    "drop_table": false,
+    "truncate_table_data": false,
+    "table_name_prefix": "",
+    "table_name_suffix": "",
+    "continue_on_error": true,
+    "deletion_behavior": "HardDelete",
+    "insert_mode": "FilePerBatch",
+    "auto_truncate_Strings": true,
+    "use_gmt_datetime": false,
+    "command_timeout": 300,
+    "additional_options": ""
+  },
+  "events": {
+    "pre_job": "",
+    "post_job": ""
+  },
+  "labels": [
+    "testing1"
+  ]
+}

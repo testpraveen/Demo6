@@ -1,0 +1,28 @@
+{
+  "tasks": [
+    {
+      "id": 936839488418746369,
+      "job_id": "a6c2b584-afdf-4a54-b0be-fa0add4586ac",
+      "query": "REPLICATE [Account] SELECT * FROM [Account]",
+      "is_active": true
+    },
+    {
+      "id": 936906968197632001,
+      "job_id": "a6c2b584-afdf-4a54-b0be-fa0add4586ac",
+      "query": "REPLICATE [ActivityParty] SELECT * FROM [ActivityParty]",
+      "is_active": true
+    },
+    {
+      "id": 936909088124702721,
+      "job_id": "a6c2b584-afdf-4a54-b0be-fa0add4586ac",
+      "query": "REPLICATE [ACIViewMapper] SELECT * FROM [ACIViewMapper]",
+      "is_active": true
+    },
+    {
+      "id": 936909733649059841,
+      "job_id": "a6c2b584-afdf-4a54-b0be-fa0add4586ac",
+      "query": "REPLICATE [ActionCardUserSettings] SELECT * FROM [ActionCardUserSettings]",
+      "is_active": true
+    }
+  ]
+}

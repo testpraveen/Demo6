@@ -1,0 +1,22 @@
+{
+  "tasks": [
+    {
+      "id": 934862457023893505,
+      "job_id": "5a4986c1-02a3-41dc-b268-1f1417255787",
+      "query": "REPLICATE [DB2INST1].[CUSTOMERSTESTING] SELECT * FROM [C##CDATA_CDC].[CUSTOMERS]",
+      "is_active": true
+    },
+    {
+      "id": 934873911114469377,
+      "job_id": "5a4986c1-02a3-41dc-b268-1f1417255787",
+      "query": "REPLICATE [DB2INST1].[Customers111] SELECT * FROM [C##CDATA_CDC].[CUSTOMERS]",
+      "is_active": true
+    },
+    {
+      "id": 979635450111201281,
+      "job_id": "5a4986c1-02a3-41dc-b268-1f1417255787",
+      "query": "REPLICATE [ORDERS] SELECT * FROM [C##CDATA_CDC].[ORDERS]",
+      "is_active": true
+    }
+  ]
+}

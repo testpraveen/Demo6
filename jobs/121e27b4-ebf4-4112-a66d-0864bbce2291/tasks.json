@@ -1,0 +1,64 @@
+{
+  "tasks": [
+    {
+      "id": 962657600581799937,
+      "job_id": "121e27b4-ebf4-4112-a66d-0864bbce2291",
+      "query": "REPLICATE [FlowRecordRelation] SELECT * FROM [Salesforce].[FlowRecordRelation]",
+      "is_active": true
+    },
+    {
+      "id": 962659130932334593,
+      "job_id": "121e27b4-ebf4-4112-a66d-0864bbce2291",
+      "query": "REPLICATE [aaemployee_data__c] SELECT * FROM [Salesforce].[aaemployee_data__c]",
+      "is_active": true
+    },
+    {
+      "id": 962659130932334595,
+      "job_id": "121e27b4-ebf4-4112-a66d-0864bbce2291",
+      "query": "REPLICATE [aaemployee_data__Tag] SELECT * FROM [Salesforce].[aaemployee_data__Tag]",
+      "is_active": true
+    },
+    {
+      "id": 962659130932334597,
+      "job_id": "121e27b4-ebf4-4112-a66d-0864bbce2291",
+      "query": "REPLICATE [AmanTest__c] SELECT * FROM [Salesforce].[AmanTest__c]",
+      "is_active": true
+    },
+    {
+      "id": 962659130932334599,
+      "job_id": "121e27b4-ebf4-4112-a66d-0864bbce2291",
+      "query": "REPLICATE [codatransaction__c] SELECT * FROM [Salesforce].[codatransaction__c]",
+      "is_active": true
+    },
+    {
+      "id": 962659130932334601,
+      "job_id": "121e27b4-ebf4-4112-a66d-0864bbce2291",
+      "query": "REPLICATE [codatransaction__Tag] SELECT * FROM [Salesforce].[codatransaction__Tag]",
+      "is_active": true
+    },
+    {
+      "id": 962659130932334603,
+      "job_id": "121e27b4-ebf4-4112-a66d-0864bbce2291",
+      "query": "REPLICATE [Escalation__Tag] SELECT * FROM [Salesforce].[Escalation__Tag]",
+      "is_active": true
+    },
+    {
+      "id": 962659130932334605,
+      "job_id": "121e27b4-ebf4-4112-a66d-0864bbce2291",
+      "query": "REPLICATE [etltest__c] SELECT * FROM [Salesforce].[etltest__c]",
+      "is_active": true
+    },
+    {
+      "id": 962659130932334607,
+      "job_id": "121e27b4-ebf4-4112-a66d-0864bbce2291",
+      "query": "REPLICATE [LeadShare] SELECT * FROM [Salesforce].[LeadShare]",
+      "is_active": true
+    },
+    {
+      "id": 962659130932334609,
+      "job_id": "121e27b4-ebf4-4112-a66d-0864bbce2291",
+      "query": "REPLICATE [leadstatus__c] SELECT * FROM [Salesforce].[leadstatus__c]",
+      "is_active": true
+    }
+  ]
+}

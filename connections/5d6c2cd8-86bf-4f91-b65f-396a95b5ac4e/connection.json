@@ -1,0 +1,21 @@
+{
+  "id": "5d6c2cd8-86bf-4f91-b65f-396a95b5ac4e",
+  "display_name": "OracleHCMSourceTest",
+  "name": "oraclehcmsourcetest",
+  "connector": {
+    "name": "CData OracleHCM",
+    "version": "latest"
+  },
+  "properties": {
+    "Password": "SECURE:7IBasuY5a0O5Qves8nRrwK/DD1sOjDCskAQ3HLNlDS7m7KqXFo9PZULTJzO1xOfdv73Omik9sCQ=",
+    "User": "natalie.salesrep",
+    "URL": "https://cloud.oracle.com/"
+  },
+  "labels": [],
+  "settings": {
+    "verbosity": 0,
+    "use_cdata_callback_url": 0,
+    "metadata_refresh_interval": 3600,
+    "use_sync_proxy": 0
+  }
+}

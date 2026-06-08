@@ -1,0 +1,28 @@
+{
+  "tasks": [
+    {
+      "id": 942027174611914753,
+      "job_id": "4852730a-f39d-4593-a856-872c0ad70636",
+      "query": "REPLICATE [dbo].[v_Test_241_NEW] WITH IncrementalCheckColumns = 'Meta_RowUpdated' SELECT * FROM [dbo].[v_Test_241]",
+      "is_active": true
+    },
+    {
+      "id": 942627768640868353,
+      "job_id": "4852730a-f39d-4593-a856-872c0ad70636",
+      "query": "REPLICATE [dbo].[CUTS_BOOK3TEST] WITH IncrementalCheckColumns = 'BOOK_DATE' SELECT * FROM [dbo].[CUST_BOOK3]",
+      "is_active": true
+    },
+    {
+      "id": 943510739992317953,
+      "job_id": "4852730a-f39d-4593-a856-872c0ad70636",
+      "query": "REPLICATE [dbo].[SyncTest241Testing] WITH IncrementalCheckColumns = 'Meta_RowUpdated' SELECT * FROM [dbo].[SyncTest241]",
+      "is_active": true
+    },
+    {
+      "id": 943707750217682945,
+      "job_id": "4852730a-f39d-4593-a856-872c0ad70636",
+      "query": "REPLICATE [dbo].[SyncTest241Test] WITH IncrementalCheckColumns = 'Meta_RowUpdated' SELECT * FROM [dbo].[SyncTest241Test]",
+      "is_active": true
+    }
+  ]
+}

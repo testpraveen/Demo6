@@ -1,0 +1,48 @@
+{
+  "id": "524c3995-d6bc-4527-a6a7-2e559b1d1017",
+  "name": "MysqlSpurce1ToOracleTesttingECDC",
+  "pipeline_id": "",
+  "type": 11,
+  "source_connector": "mysqlsource1",
+  "destination_connector": "oracledestination",
+  "schedule": {
+    "enabled": false,
+    "cron": ""
+  },
+  "alerts": {
+    "send_email": false,
+    "email_to": "",
+    "email_error_only": false
+  },
+  "properties": {
+    "enable_parallel_processing": false,
+    "worker_pool": 2,
+    "verbosity": 2,
+    "destination_schema": "C##BRAJAN",
+    "automatic_job_retry": false
+  },
+  "replicate_options": {
+    "replicate_start_date": null,
+    "replicate_interval": 180,
+    "replicate_interval_unit": "days",
+    "snapshot_size": "1000000",
+    "skip_snapshot": "false",
+    "alter_schema": true,
+    "drop_table": false,
+    "truncate_table_data": false,
+    "table_name_prefix": "",
+    "table_name_suffix": null,
+    "continue_on_error": true,
+    "deletion_behavior": "SoftDelete",
+    "insert_mode": null,
+    "auto_truncate_Strings": true,
+    "use_gmt_datetime": false,
+    "command_timeout": 300,
+    "additional_options": ""
+  },
+  "events": {
+    "pre_job": "928564961070944256",
+    "post_job": "928564961083527168"
+  },
+  "labels": []
+}

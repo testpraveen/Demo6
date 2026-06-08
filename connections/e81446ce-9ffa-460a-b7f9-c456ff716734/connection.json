@@ -1,0 +1,24 @@
+{
+  "id": "e81446ce-9ffa-460a-b7f9-c456ff716734",
+  "display_name": "SAPSuccessFactors",
+  "name": "sapsuccessfactors",
+  "connector": {
+    "name": "CData SAPSuccessFactors",
+    "version": "latest"
+  },
+  "properties": {
+    "AuthScheme": "Basic",
+    "CompanyId": "SFCPART000828",
+    "Password": "SECURE:n7bsdL7rE2i9pcF+UZwJrFKsiqE0h46XpT4aF09L+dlM8FHYyJTyIVNPnPck3crC1w9ed8Mn4SRAUT1wTNc99pg=",
+    "User": "sfadmin",
+    "URL": "https://apisalesdemo2.successfactors.eu",
+    "PrivateKeyType": "PEMKEY_FILE"
+  },
+  "labels": [],
+  "settings": {
+    "verbosity": 0,
+    "use_cdata_callback_url": 0,
+    "metadata_refresh_interval": 3600,
+    "use_sync_proxy": 0
+  }
+}

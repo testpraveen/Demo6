@@ -1,0 +1,16 @@
+{
+  "tasks": [
+    {
+      "id": 930018382114328577,
+      "job_id": "df15c99a-9e77-45b5-889e-0d399cd9f75c",
+      "query": "REPLICATE [ORDERS] SELECT * FROM [APP_USER].[ORDERS]",
+      "is_active": true
+    },
+    {
+      "id": 930018382114328579,
+      "job_id": "df15c99a-9e77-45b5-889e-0d399cd9f75c",
+      "query": "REPLICATE [dbo].[ORDERS1] WITH DropTable = 'false' SELECT * FROM [SALES_USER].[ORDERS]",
+      "is_active": true
+    }
+  ]
+}

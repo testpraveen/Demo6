@@ -1,0 +1,10 @@
+{
+  "tasks": [
+    {
+      "id": 928941738230419457,
+      "job_id": "62007509-2c4a-4326-8cee-867930ee6925",
+      "query": "REPLICATE [TestTable] SELECT * FROM [CDATA].[TestTable]",
+      "is_active": true
+    }
+  ]
+}

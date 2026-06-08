@@ -1,0 +1,22 @@
+{
+  "id": "f81155a1-ebfd-418e-8461-8cf397b68023",
+  "display_name": "servertesting123",
+  "name": "servertesting123",
+  "connector": {
+    "name": "CData SQL",
+    "version": "latest"
+  },
+  "properties": {
+    "AuthScheme": "Password",
+    "Port": "1433",
+    "Encrypt": "False",
+    "UseSSH": "False"
+  },
+  "labels": [],
+  "settings": {
+    "verbosity": 0,
+    "use_cdata_callback_url": 0,
+    "metadata_refresh_interval": 3600,
+    "use_sync_proxy": 0
+  }
+}

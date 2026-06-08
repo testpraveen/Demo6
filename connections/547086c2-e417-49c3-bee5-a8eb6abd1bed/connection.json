@@ -1,0 +1,24 @@
+{
+  "id": "547086c2-e417-49c3-bee5-a8eb6abd1bed",
+  "display_name": "SnowFlakeSource",
+  "name": "snowflakesource",
+  "connector": {
+    "name": "CData Snowflake",
+    "version": "latest"
+  },
+  "properties": {
+    "AuthScheme": "PingFederate",
+    "Database": "DEMO_DB",
+    "Password": "SECURE:ihdLezMELOD98ReAi1Nl8HLLk9uBm7WJf6SdC6MY6bRs1SCvrySfEARHlxeDb6MkxyaGX+ziFvXVQbEtO7L15ZB8J2U=",
+    "Warehouse": "SAMPLE_WAREHOUSE",
+    "User": "SUPPORT",
+    "URL": "https://uj34980.us-east-1.snowflakecomputing.com"
+  },
+  "labels": [],
+  "settings": {
+    "verbosity": 0,
+    "use_cdata_callback_url": 0,
+    "metadata_refresh_interval": 3600,
+    "use_sync_proxy": 0
+  }
+}

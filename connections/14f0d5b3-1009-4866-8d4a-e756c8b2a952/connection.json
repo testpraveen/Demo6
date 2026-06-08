@@ -1,0 +1,21 @@
+{
+  "id": "14f0d5b3-1009-4866-8d4a-e756c8b2a952",
+  "display_name": "restSourceTesting",
+  "name": "restsourcetesting",
+  "connector": {
+    "name": "CData REST",
+    "version": "latest"
+  },
+  "properties": {
+    "AuthScheme": "Basic",
+    "Format": "JSON",
+    "AWSRegion": "NORTHERNVIRGINIA"
+  },
+  "labels": [],
+  "settings": {
+    "verbosity": 0,
+    "use_cdata_callback_url": 0,
+    "metadata_refresh_interval": 3600,
+    "use_sync_proxy": 0
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "tasks": [
+    {
+      "id": 923870037993984001,
+      "job_id": "ae470772-967d-423c-9ed8-0e842366cd28",
+      "query": "REPLICATE [Accounts] SELECT [Id], [Date_Modified], [Account_Type], [Acl_Team_Names], [Acl_Team_Set_Id], [Assigned_User_Name], [Bctest_C], [Billing_Address_City], [Billing_Address_Country], [Billing_Address_Postalcode], [Billing_Address_State], [Billing_Address_Street], [Business_Center_Id], [Business_Center_Name], [Campaign_Id], [Campaign_Name], [Commentlog], [Created_By], [Created_By_Name], [Date_Entered], [Deleted], [Description], [Dri_Workflow_Template_Id], [Dri_Workflow_Template_Name], [Duns_Num], [Email], [Email1], [Email2], [Email_Addresses_Non_Primary], [Email_Opt_Out], [Employees], [Facebook], [Following], [Geocode_Status], [Googleplus], [Hint_Account_Facebook_Handle], [Hint_Account_Fiscal_Year_End], [Hint_Account_Founded_Year], [Hint_Account_Industry], [Hint_Account_Industry_Tags], [Hint_Account_Location], [Hint_Account_Logo], [Hint_Account_Naics_Code_Lbl], [Hint_Account_Pic], [Hint_Account_Size], [Industry], [Invalid_Email], [Is_Escalated], [Last_Interaction_Date], [Last_Interaction_Parent_Id], [Last_Interaction_Parent_Name], [Last_Interaction_Parent_Type], [Latitude_C], [Locked_Fields], [Longitude_C], [Modified_By_Name], [Modified_User_Id], [My_Favorite], [Name], [Next_Renewal_Date], [Ownership], [Parent_Id], [Parent_Name], [Perform_Sugar_Action], [Phone_Alternate], [Phone_Fax], [Phone_Office], [Rating], [Service_Level], [Shipping_Address_City], [Shipping_Address_Country], [Shipping_Address_Postalcode], [Shipping_Address_State], [Shipping_Address_Street], [Sic_Code], [Sync_Key], [Tag], [Team_Count], [Team_Id], [Team_Name], [Team_Set_Id], [Ticker_Symbol], [Twitter], [Website], [Widget_Next_Renewal_Date] FROM [Accounts]",
+      "is_active": true
+    },
+    {
+      "id": 923870037993984003,
+      "job_id": "ae470772-967d-423c-9ed8-0e842366cd28",
+      "query": "REPLICATE [ACLRoles] SELECT * FROM [ACLRoles]",
+      "is_active": true
+    }
+  ]
+}

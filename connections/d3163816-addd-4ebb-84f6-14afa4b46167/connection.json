@@ -1,0 +1,25 @@
+{
+  "id": "d3163816-addd-4ebb-84f6-14afa4b46167",
+  "display_name": "PagerDutySource",
+  "name": "pagerdutysource",
+  "connector": {
+    "name": "CData API Profile For PagerDuty",
+    "version": "latest"
+  },
+  "properties": {
+    "AuthScheme": "OAuth",
+    "OAuthVersion": "2.0",
+    "OAuthClientId": "52ecb007-1283-45f7-9ede-962aae8fcb7b",
+    "Profile": "C:\\ProgramData\\CData\\sync\\profiles\\PagerDuty.apip",
+    "Scope": "read write",
+    "OAuthClientSecret": "SECURE:t3xepbroJVC5t7IWBgMBcZ1TomFOhAgNiZFgBXi7PgsOYEF3aDt38cClOo/4Hz7YA/0guq/m0vum8uDzmlqcoacGgq/4/EDr3ny9O1RT+B0XvFFCRyyw+bXhcQ==",
+    "EnableLooseCriteriaEvaluation": "true"
+  },
+  "labels": [],
+  "settings": {
+    "verbosity": 5,
+    "use_cdata_callback_url": 0,
+    "metadata_refresh_interval": 3600,
+    "use_sync_proxy": 0
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "id": "d1a59ae7-51a5-477f-aae3-b5ef7ba3aa3e",
+  "display_name": "OracleTestSourceForTesting",
+  "name": "oracletestsourcefortesting",
+  "connector": {
+    "name": "CData Oracle",
+    "version": "latest"
+  },
+  "properties": {
+    "Server": "localhost",
+    "Password": "SECURE:VrE7knA6ufHmDv4xcha1BEchyRaAD6LjhbNPYGBrxzMgm7IFh/xiQSEbhVsuDdntXteXPlnK/dc8",
+    "NativeFolder": "C:\\ProgramData\\CData\\sync\\libs\\oracleoci\\9210\\x64",
+    "ServiceName": "ORACLEDB",
+    "ConnectionType": "Server",
+    "User": "C##BRAJAN"
+  },
+  "labels": [],
+  "settings": {
+    "verbosity": 0,
+    "use_cdata_callback_url": 0,
+    "metadata_refresh_interval": 3600,
+    "use_sync_proxy": 0
+  }
+}
